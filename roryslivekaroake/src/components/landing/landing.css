@@ -1,0 +1,23 @@
+.landing__text {
+  font-family: var(--text-font);
+}
+
+#landing__quote {
+  font-size: 65px;
+  width: 500px;
+}
+
+#landing__info {
+  font-size: 20px;
+  width: 400px;
+}
+
+.landing__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.landing__btns {
+  display: flex;
+  align-items: center;
+}

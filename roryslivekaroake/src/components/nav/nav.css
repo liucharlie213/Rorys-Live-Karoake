@@ -1,0 +1,27 @@
+.nav__bar {
+  display: flex;
+  align-items: center;
+  margin: 30px 30px 30px 30px;
+  /* background: pink; */
+}
+
+.nav__website {
+  flex: 90;
+}
+
+#nav__title {
+  font-size: var(--title-size);
+  font-family: var(--text-font);
+}
+
+.nav__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+
+}
+.nav__icon {
+  width: 20px;
+  height: 20px;
+}
+
