@@ -11,10 +11,16 @@ const Landing = () => {
         <div className="landing__btns">
           <button className="landing__btn" id="book__btn">Book</button>
           {/* add href for browse songs button to scroll to songs page */}
-          <a className="landing__btn"> 
+          <div className="landing__browse">
+            <a className="landing__btn"> 
+              <img src={musicIcon} className="landing__icon"></img>
+            </a>
+            <a className="landing__btn" id="browse__btn">Browse Songs</a>
+          </div>
+          {/* <a className="landing__btn"> 
             <img src={musicIcon} className="landing__icon"></img>
           </a>
-          <a className="landing__btn" id="browse__btn">Browse Songs</a>
+          <a className="landing__btn" id="browse__btn">Browse Songs</a> */}
         </div>
       </div>
     </div>

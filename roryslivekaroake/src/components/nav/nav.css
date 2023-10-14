@@ -1,7 +1,7 @@
 .nav__bar {
   display: flex;
   align-items: center;
-  margin: 30px 30px 30px 30px;
+  margin: 30px 50px 30px 30px;
   /* background: pink; */
 }
 
@@ -17,7 +17,7 @@
 .nav__icons {
   display: flex;
   justify-content: space-between;
-  width: 100px;
+  width: 150px;
 
 }
 .nav__icon {

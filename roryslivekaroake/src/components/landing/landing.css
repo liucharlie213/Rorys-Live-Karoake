@@ -1,15 +1,21 @@
 .landing__text {
   font-family: var(--text-font);
+  margin-top: 125px;
+  margin-left: 150px;
 }
 
 #landing__quote {
   font-size: 65px;
   width: 500px;
+  line-height: 85px;
+  margin-bottom: 15px;
 }
 
 #landing__info {
   font-size: 20px;
   width: 400px;
+  line-height: 30px;
+  margin-bottom: 25px;
 }
 
 .landing__icon {
@@ -20,4 +26,20 @@
 .landing__btns {
   display: flex;
   align-items: center;
+  width: 400px;
+  justify-content: space-between;
+  font-size: var(--title-size);
+}
+
+#book__btn {
+  font-size: var(--title-size);
+  font-family: var(--text-font);
+  padding: 10px 15px 4px 15px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.landing__browse {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
 }
