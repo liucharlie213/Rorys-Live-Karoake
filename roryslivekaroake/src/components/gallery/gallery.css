@@ -1,0 +1,38 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 240px; 
+  /* or magin-top: 125px? */
+}
+
+.gallery__photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;  
+}
+
+.gallery__photo {
+  height: 350px;
+  width: 290px;
+  object-fit: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.gallery__background {
+  position: relative;
+  display: inline-block;
+}
+
+.gallery__background::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(217, 217, 217, 1); /* Choose your desired color */
+  height: 300px; /* Adjust the height as needed */
+  width: 110%; /* Full width of the word */
+  bottom: -20%; /* Position at the bottom of the word */
+  left: -5%;
+  z-index: -1;
+  border-radius: 5px 5px 5px 5px;
+}
