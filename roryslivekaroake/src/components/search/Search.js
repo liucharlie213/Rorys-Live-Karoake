@@ -7,7 +7,7 @@ const Search = () => {
     <div className="search__section">
       <div className="search__column">
         <div className="search__title">
-          <p>Search Songs</p>
+          <span id="search__songs">Search Songs</span>
         </div>
         <div className="search__and__sort">
           <div className="search__bar">
@@ -20,6 +20,14 @@ const Search = () => {
           </div>
         </div>
 
+        <span className="song__background">
+          <div className="song__list">
+            <div className="song__chart__title"></div>
+            <div className="song">
+              <></>
+            </div>
+          </div>
+        </span>
       </div>
 
     </div>

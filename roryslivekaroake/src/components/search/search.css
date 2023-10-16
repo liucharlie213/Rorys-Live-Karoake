@@ -1,4 +1,58 @@
+
+.search__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+.search__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#search__songs {
+  font-size: var(--title-size);
+  position: relative;
+  display: inline-block;
+}
+
+#search__songs::after {
+  content: "";
+  position: absolute;
+  background-color: #25279c; /* Choose your desired color */
+  height: 15px; /* Adjust the height as needed */
+  width: 110%; /* Full width of the word */
+  bottom: 0%; /* Position at the bottom of the word */
+  left: -5%;
+  z-index: -1;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.search__and__sort {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.search__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
 #search__icon {
   width: 20px;
   height: 20px;
+  margin-right: 10px;
+}
+
+.sort__bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
 }
