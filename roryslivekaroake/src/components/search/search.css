@@ -1,31 +1,29 @@
-
-.search__section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.search__container {
   margin-top: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 100px;
 }
 
 .search__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
+  font-size: var(--title-size);
 }
 
-#search__songs {
-  font-size: var(--title-size);
+.search__span {
   position: relative;
   display: inline-block;
 }
 
-#search__songs::after {
+.search__span::after {
   content: "";
   position: absolute;
   background-color: #25279c; /* Choose your desired color */
-  height: 15px; /* Adjust the height as needed */
+  height: 20px; /* Adjust the height as needed */
   width: 110%; /* Full width of the word */
-  bottom: 0%; /* Position at the bottom of the word */
+  bottom: 10%; /* Position at the bottom of the word */
   left: -5%;
   z-index: -1;
   border-radius: 5px 5px 5px 5px;
@@ -33,26 +31,98 @@
 
 .search__and__sort {
   display: flex;
-  width: 500px;
   justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  /* background-color: pink; */
 }
 
-.search__bar {
+.search__input {
+  font-size: 18px; 
+  font-family: var(--text-font);
+  /* padding: 10px 20px;  */
+  padding-left: 20px;
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 10px; 
+  color: black;
+  outline: none; 
+  transition: box-shadow 0.3s ease; 
+}
+
+.search-input:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+.search-input::placeholder {
+  color: #BBBBBB; 
+}
+
+.sort__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+}
+
+.sort__dropdown {
+  font-size: 18px; 
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 70px;
+  height: 40px;
+  align-items: center;
+  color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 200px;
+  position: relative;
 }
 
-#search__icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+.dropdown__content {
+  font-size: 18px; 
+  position: absolute;
+  top: 100%;  /* Ensures that it appears right below the selected__sort div */
+  background-color: white;
+  width: 70px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 5px;
 }
 
-.sort__bar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 110px;
+.dropdown__item {
+  padding-top: 5px;
 }
+
+.table__container {
+  min-height: 500px;
+}
+
+table {
+  width: 900px;
+  border-collapse: collapse;
+  /* border: 1px solid white; */
+}
+
+th, td {
+  width: 33.33%;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+td {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+

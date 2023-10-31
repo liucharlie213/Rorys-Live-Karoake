@@ -3,13 +3,15 @@ import igIcon from "../../assets/icons/instagram.png"
 import emailIcon from "../../assets/icons/envelope.png"
 import donateIcon from "../../assets/icons/hand-holding-usd.png"
 import "./nav.css"
+import { useState } from "react"
 
 const Nav = () => {
+  const [activeSection, setActiveSection] = useState("#");
   return (
     <nav>
       <div className="nav__bar">
         <div className="nav__website">
-          <a id="nav__title">Rory's Live Karoake</a>  
+          <a href="#" id="nav__title" onClick={() => setActiveSection('#')}>Rory's Live Karoake</a>  
         </div>
         <div className="nav__icons">
           <a href="https://www.instagram.com/roryslivekaraoke/" target="__blank" id="nav__ig">
