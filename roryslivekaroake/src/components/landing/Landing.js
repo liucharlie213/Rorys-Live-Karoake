@@ -11,7 +11,7 @@ const Landing = () => {
     <section id="landing">
       <div className="landing__page" >
         <div className="landing__text">
-          <p id="landing__quote">Live <span className="landing__highlight">Acoustic</span> Karaoke</p>
+          <p id="landing__quote">LIVE <span className="landing__highlight">ACOUSTIC</span> KARAOKE</p>
           <p id="landing__info">750+ songs, full lyric projection. Taking bookings now for parties and business events. Singing along is a state of mind.</p>
           <div className="landing__btns">
             <button className="landing__btn" id="book__btn">Book</button>
