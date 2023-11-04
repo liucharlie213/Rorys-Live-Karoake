@@ -109,7 +109,7 @@ table {
 th, td {
   width: 33.33%;
   padding: 10px;
-  text-align: left;
+  /* text-align: left; */
 }
 
 th {
@@ -123,6 +123,22 @@ th {
 td {
   font-size: 18px;
   font-weight: 300;
+}
+
+.cover__title {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  width: auto;
+  }
+
+.album__cover {
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
 }
 
 
