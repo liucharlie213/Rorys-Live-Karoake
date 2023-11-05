@@ -43,6 +43,7 @@ return (
       <div className="song__info">
         {songs.length > 0 ? ( // Add this check
           <>
+            <img src={songs[currentIndex].Cover} id="song__cover"/>
             <p id="song__title">{songs[currentIndex].Title}</p>
             <p id="song__artist">{songs[currentIndex].Artist}</p>
           </>

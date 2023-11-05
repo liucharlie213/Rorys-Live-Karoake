@@ -54,15 +54,20 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 30px 20px;
+  /* border: 1px solid white; */
+  /* border-radius: 10px; */
+  /* padding: 30px 20px; */
   margin: 0 25px;
+}
+
+#song__cover {
+  width: 250px;
+  height: 250px;
 }
 
 #song__title {
   font-size: 25px;
-  font-weight:  400;
+  font-weight: 400;
 }
 
 #song__artist {
