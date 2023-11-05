@@ -1,0 +1,71 @@
+.carousel__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+
+.carousel__span {
+  position: relative;
+  display: inline-block;
+}
+
+.carousel__span::after {
+  content: "";
+  position: absolute;
+  background-color: #25279c; /* Choose your desired color */
+  height: 15px; /* Adjust the height as needed */
+  width: 110%; /* Full width of the word */
+  bottom: -10%; /* Position at the bottom of the word */
+  left: -5%;
+  z-index: -1;
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.carousel__buttons {
+  width: 50px; 
+  height: 50px; 
+  padding: 5px; 
+  border: none; /* Optional: Removes border */
+  background-color: transparent; 
+}
+
+/* CSS class for the image within the button */
+.carousel__buttons img {
+  width: 100%;  /* Makes the image fill the button */
+  height: auto; /* Keeps the image aspect ratio */
+}
+
+.song__info {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px 20px;
+  margin: 0 25px;
+}
+
+#song__title {
+  font-size: 25px;
+  font-weight:  400;
+}
+
+#song__artist {
+  font-weight: 300;
+}
+

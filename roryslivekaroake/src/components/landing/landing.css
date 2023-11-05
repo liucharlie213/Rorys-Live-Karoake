@@ -19,7 +19,7 @@
 
 #landing__quote {
   font-size: 80px;
-  width: 800px;
+  width: 1500px;
   /* line-height: 85px; */
   margin-bottom: 50px;
 }
@@ -47,6 +47,7 @@
   width: 740px;
   line-height: 40px;
   margin-bottom: 50px;
+  font-weight: 300;
 }
 
 .landing__icon {
@@ -67,12 +68,14 @@
   font-family: var(--text-font);
   padding: 10px 15px 4px 15px;
   border-radius: 5px 5px 5px 5px;
+  font-weight: 300; 
 }
 
 .landing__browse {
   display: flex;
-  width: 250px;
+  width: 235px;
   justify-content: space-between;
+  font-weight: 300; 
 }
 
 a,

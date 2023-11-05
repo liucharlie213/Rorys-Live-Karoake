@@ -1,11 +1,11 @@
 .search__container {
-  margin-top: 240px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 55px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .search__title {
@@ -21,9 +21,9 @@
   content: "";
   position: absolute;
   background-color: #25279c; /* Choose your desired color */
-  height: 20px; /* Adjust the height as needed */
+  height: 15px; /* Adjust the height as needed */
   width: 110%; /* Full width of the word */
-  bottom: 10%; /* Position at the bottom of the word */
+  bottom: -10%; /* Position at the bottom of the word */
   left: -5%;
   z-index: -1;
   border-radius: 5px 5px 5px 5px;
@@ -49,6 +49,8 @@
   color: black;
   outline: none; 
   transition: box-shadow 0.3s ease; 
+  font-weight: 300;
+
 }
 
 .search-input:focus {
@@ -57,6 +59,7 @@
 
 .search-input::placeholder {
   color: #BBBBBB; 
+  font-weight: 300;
 }
 
 .sort__section {
@@ -68,6 +71,7 @@
 
 .sort__dropdown {
   font-size: 18px; 
+  font-weight: 300;
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -82,6 +86,7 @@
 
 .dropdown__content {
   font-size: 18px; 
+  font-weight: 300;
   position: absolute;
   top: 100%;  /* Ensures that it appears right below the selected__sort div */
   background-color: white;
@@ -109,7 +114,7 @@ table {
 th, td {
   width: 33.33%;
   padding: 10px;
-  text-align: left;
+  /* text-align: left; */
 }
 
 th {
@@ -123,6 +128,22 @@ th {
 td {
   font-size: 18px;
   font-weight: 300;
+}
+
+.cover__title {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  width: auto;
+  }
+
+.album__cover {
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
 }
 
 

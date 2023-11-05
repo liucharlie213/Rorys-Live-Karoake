@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 240px; 
+  /* margisn-bottom: 150px; */
   /* or magin-top: 125px? */
 }
 
@@ -28,7 +29,7 @@
 .gallery__background::after {
   content: "";
   position: absolute;
-  background-color: rgba(217, 217, 217, 1); /* Choose your desired color */
+  background-color: white; /* Choose your desired color */
   height: 300px; /* Adjust the height as needed */
   width: 110%; /* Full width of the word */
   bottom: -20%; /* Position at the bottom of the word */
