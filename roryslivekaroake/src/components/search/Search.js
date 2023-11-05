@@ -194,9 +194,9 @@ const Search = () => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-      console.log(response);
+      // console.log(response);
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       // If an album cover URL is found, add it to the song object
 
       if (data.albumCoverUrl) {
@@ -267,6 +267,9 @@ const Search = () => {
     setSortOrder(option);
     setDropdownOpen(false);
   }
+
+  sortedData.forEach(item => console.log(item.albumCoverUrl));
+
 
   return (
     <section id="search">
