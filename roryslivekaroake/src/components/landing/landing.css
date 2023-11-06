@@ -15,6 +15,7 @@
   text-align: center;
   font-family: var(--text-font);
   margin-top: 135px;
+  font-weight: 300; 
 }
 
 #landing__quote {
@@ -22,6 +23,36 @@
   width: 1500px;
   /* line-height: 85px; */
   margin-bottom: 50px;
+}
+
+/* .landing__highlight {
+  position: relative;
+  display: inline-block;
+} */
+
+/* .landing__highlight::after {
+  content: "";
+  position: absolute;
+  background-color: #f9f9f9;
+  height: 15px; 
+  width: 0%; 
+  bottom: -10%; 
+  left: -3%;
+  z-index: -1;
+  transition: width 0.7s ease;
+}
+
+.landing__highlight:hover::after {
+  width: 105%;
+} */
+
+@keyframes underline-slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 105%;
+  }
 }
 
 .landing__highlight {
@@ -32,14 +63,16 @@
 .landing__highlight::after {
   content: "";
   position: absolute;
-  background-color: #25279c; /* Choose your desired color */
-  height: 20px; /* Adjust the height as needed */
-  width: 110%; /* Full width of the word */
-  bottom: 10%; /* Position at the bottom of the word */
-  left: -5%;
+  background-color: #f9f9f9;
+  height: 15px; /* Adjust the height as needed */
+  width: 0%; 
+  bottom: -10%; /* Position at the bottom of the word */
+  left: -3%;
   z-index: -1;
-  border-radius: 5px 5px 5px 5px;
+  transition: width 2s ease;
+  animation: underline-slide 1s ease forwards; /* Add this line */
 }
+
 
 #landing__info {
   font-size: 30px;
@@ -58,7 +91,7 @@
 .landing__btns {
   display: flex;
   align-items: center;
-  width: 400px;
+  width: 375px;
   justify-content: space-between;
   font-size: var(--title-size);
 }
@@ -69,6 +102,8 @@
   padding: 10px 15px 4px 15px;
   border-radius: 5px 5px 5px 5px;
   font-weight: 300; 
+  background-color: #f9f9f9;
+  color: rgba(17,17,17,255);
 }
 
 .landing__browse {
@@ -84,3 +119,4 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
+

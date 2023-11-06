@@ -1,9 +1,27 @@
 .carousel__container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
   margin-top: 150px;
+}
+
+#blank__space {
+  line-height: 40px;
+  color: rgba(17,17,17,255);
+}
+
+.carousel__quote {
+  font-size: 50px;
+  margin-left: 160px;
+  font-weight: 300;
+}
+
+.carousel__title {
+  font-size: var(--title-size);
+  font-weight: 300;
+  text-align: center;
+  /* margin-top: 50px; */
 }
 
 
@@ -15,21 +33,19 @@
 .carousel__span::after {
   content: "";
   position: absolute;
-  background-color: #25279c; /* Choose your desired color */
-  height: 15px; /* Adjust the height as needed */
-  width: 110%; /* Full width of the word */
-  bottom: -10%; /* Position at the bottom of the word */
-  left: -5%;
+  background-color: #f9f9f9; /* Choose your desired color */
+  height: 5px; /* Adjust the height as needed */
+  width: 100%;
+  bottom: -20%; /* Position at the bottom of the word */
+  left: 0%;
   z-index: -1;
-  border-radius: 5px 5px 5px 5px;
 }
-
 
 .carousel {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .carousel__buttons {
@@ -54,20 +70,26 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  /* border: 1px solid white; */
-  /* border-radius: 10px; */
-  /* padding: 30px 20px; */
   margin: 0 25px;
 }
 
 #song__cover {
   width: 250px;
   height: 250px;
+  border-radius: 7px;
+}
+
+.song__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 #song__title {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #song__artist {

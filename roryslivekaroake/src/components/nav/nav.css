@@ -12,6 +12,7 @@
 #nav__title {
   font-size: var(--title-size);
   font-family: var(--text-font);
+  font-weight: 300;
 }
 
 .nav__icons {

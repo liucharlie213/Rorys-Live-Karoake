@@ -1,8 +1,10 @@
 .gallery {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 240px; 
+  margin-top: 200px; 
+  gap: 50px;
   /* margisn-bottom: 150px; */
   /* or magin-top: 125px? */
 }
@@ -11,12 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1000px;  
+  width: 900px;  
 }
 
 .gallery__photo {
   height: 350px;
-  width: 290px;
+  width: 280px;
   object-fit: cover;
   border-radius: 5px 5px 5px 5px;
 }
@@ -29,11 +31,11 @@
 .gallery__background::after {
   content: "";
   position: absolute;
-  background-color: white; /* Choose your desired color */
-  height: 300px; /* Adjust the height as needed */
-  width: 110%; /* Full width of the word */
-  bottom: -20%; /* Position at the bottom of the word */
-  left: -5%;
+  background-color: #1d1e22; 
+  height: 500px; 
+  width: 112%; 
+  bottom: -21%; 
+  left: -6%;
   z-index: -1;
   border-radius: 5px 5px 5px 5px;
 }

@@ -34,8 +34,11 @@ const Carousel = () => {
   // ...
 
 return (
+  <section id="carousel">
   <div className="carousel__container">
-    <h1><span className="carousel__span">Popular Songs</span></h1>
+    <span id="blank__space">blankspace</span>
+    <p className="carousel__quote">PICK A FAN FAVOURITE...</p>
+    {/* <p className="carousel__title"><span className="carousel__span">Popular Songs</span></p> */}
     <div className="carousel">
       <button onClick={previousSong} className="carousel__buttons">
         <img src={ prevArrow } /> 
@@ -44,8 +47,11 @@ return (
         {songs.length > 0 ? ( // Add this check
           <>
             <img src={songs[currentIndex].Cover} id="song__cover"/>
-            <p id="song__title">{songs[currentIndex].Title}</p>
-            <p id="song__artist">{songs[currentIndex].Artist}</p>
+            <div className="song__text">
+              <p id="song__title">{songs[currentIndex].Title}</p>
+              <p id="song__artist">{songs[currentIndex].Artist}</p>
+            </div>
+            
           </>
         ) : (
           <p>Loading...</p> // Show a loading message or some placeholder
@@ -57,9 +63,9 @@ return (
     </div>
     
   </div>
+  </section>
 );
 
-// ...
 
 }
 

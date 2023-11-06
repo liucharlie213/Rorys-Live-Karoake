@@ -61,18 +61,20 @@ const Search = () => {
 
   return (
     <section id="search">
+    <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p>
+
     <div className="search__container">
-      <p className="search__title"><span className="search__span">Search Songs</span></p>
+      {/* <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p> */}
       <div className="search__and__sort">
         <input 
           type="text"
-          placeholder="Find the perfect song"
+          placeholder="Search songs"
           value = {searchTerm}
           onChange={handleSearchChange}
           className="search__input"
         />
         <div className="sort__section">
-          <p>Sort By:</p>
+          <p id="sort__by">Sort By:</p>
           <div className="sort__dropdown">
             <div className="selected__sort" onClick={handdleToggleDropdown}>
               {selectedOption}

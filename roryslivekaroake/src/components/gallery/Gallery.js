@@ -7,6 +7,7 @@ import "./gallery.css"
 const Gallery = () => {
   return (
     <div className="gallery">
+        {/* <p className="gallery__title">Gallery</p> */}
         <span className="gallery__background">
           <div className="gallery__photos">
             <img src={image1} className="gallery__photo"></img>
