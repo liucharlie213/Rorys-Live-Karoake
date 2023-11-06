@@ -1,2 +1,2 @@
 # Rory's-Live-Karaoke
-Website for Rory's Live Karaoke 
+Promotional and Event website for Rory's Live Karaoke
