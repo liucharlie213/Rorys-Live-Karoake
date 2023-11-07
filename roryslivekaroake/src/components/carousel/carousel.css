@@ -48,6 +48,13 @@
   margin-top: 70px;
 }
 
+.browse__popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vh;
+}
+
 .carousel__buttons {
   width: 50px; 
   height: 50px; 
@@ -96,3 +103,46 @@
   font-weight: 300;
 }
 
+
+@media only screen and (max-width: 480px) {
+  .carousel__container {
+    margin-top: 7vh;
+    width: 100%;
+  }
+  .carousel__quote {
+    text-align: left;
+    margin-left: 6vw;
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .browse__popular {
+    width: 44vh;
+  }
+
+  .song__info {
+    margin: 0 0vh;
+  }
+  
+  #song__title {
+    font-size: 21px;
+  }
+
+  #song__artist {
+    font-size: 16px;
+  }
+
+
+  .carousel__buttons {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+
+
+
+}

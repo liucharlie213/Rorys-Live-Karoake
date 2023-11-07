@@ -16,22 +16,6 @@
   font-weight: 300; 
 }
 
-/* .search__span {
-  position: relative;
-  display: inline-block;
-}
-
-.search__span::after {
-    content: "";
-    position: absolute;
-    background-color: #f9f9f9; 
-    height: 5px; 
-    width: 100%;
-    bottom: -20%;
-    left: 0%;
-    z-index: -1;
-  } */
-
 .search__and__sort {
   display: flex;
   justify-content: space-between;
@@ -94,7 +78,7 @@
   top: 0%;
   background-color: #1d1e22;
   color:#f9f9f9;
-  width: 70px;
+  padding: 5vw;
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -131,6 +115,10 @@ th {
   padding-bottom: 20px;
 }
 
+.phone__header {
+  display: none;
+}
+
 td {
   font-size: 18px;
   font-weight: 300;
@@ -152,4 +140,91 @@ td {
   border-radius: 5px;
 }
 
+.phone__song {
+  display: none;
+}
 
+@media screen and (max-width: 480px) {
+  .search__container {
+    width: 100vw;
+    margin-top: 7vh;
+  }
+
+  .search__title {
+    width: 90%;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 7vh;
+  }
+
+  .search__and__sort {
+    gap: 2vh;
+    width: 90vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search__input {
+    width: 90vw;
+  }
+
+  .dropdown__content {
+    display: flex;
+    gap: 4vw;
+  }
+
+  table {
+    width: 100vw;
+    margin-left: 10vw;
+  }
+
+  .computer__header {
+    display: none;
+  }
+
+  .computer__song {
+    display: none;
+  }
+
+  .phone__header {
+    display: initial;
+  }
+
+  .phone__song {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    width: 75%;
+  }
+
+  .title__artist {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+  }
+
+  #phone__title {
+    font-size: 18px;
+    font-weight: 400;;
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    max-width: 70vw;
+  }
+
+  .artist__tags {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #phone__artist,
+  #phone__tags {
+    font-size: 15px;
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    max-width: 40vw;
+  }
+  
+
+}

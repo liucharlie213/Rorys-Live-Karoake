@@ -2,8 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; Adjust as needed to center vertically on the viewport */
-  text-align: center; /* Center-align text within the container */  
+  text-align: center;
 }
 
 .landing__text {
@@ -21,30 +20,10 @@
 #landing__quote {
   font-size: 80px;
   width: 1500px;
+  /* width: 90vb; */
   /* line-height: 85px; */
   margin-bottom: 50px;
 }
-
-/* .landing__highlight {
-  position: relative;
-  display: inline-block;
-} */
-
-/* .landing__highlight::after {
-  content: "";
-  position: absolute;
-  background-color: #f9f9f9;
-  height: 15px; 
-  width: 0%; 
-  bottom: -10%; 
-  left: -3%;
-  z-index: -1;
-  transition: width 0.7s ease;
-}
-
-.landing__highlight:hover::after {
-  width: 105%;
-} */
 
 @keyframes underline-slide {
   from {
@@ -120,3 +99,69 @@ a:active {
   color: inherit;
 }
 
+@media screen and (max-width: 480px) {
+  .landing__page {
+    width: 100%;
+  }
+
+  .landing__text {
+    margin-top: 5vh;
+    align-items: flex-start;
+  }
+
+  #landing__quote {
+    width: 50vh;
+    font-size: 65px;
+    text-align: left;
+    line-height: 80px;;
+    margin-left: 12vw;
+    margin-bottom: 5vh;
+  }
+
+  #landing__info {
+    width: 45vh;
+    text-align: left;
+    margin-left: 12vw;
+    font-size: 25px;
+    margin-bottom: 5vh;
+  }
+
+  .landing__highlight {
+    margin-bottom: 15px;
+  }
+
+  .landing__highlight::after {
+    height: 13px;
+    bottom: 5%;
+    left: 0px;
+    width: 100%
+  }
+
+  .landing__btns {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 4vh;
+  }
+}
+
+@keyframes underline-slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 105%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  @keyframes underline-slide {
+    from {
+      width: 0%;
+    }
+    to {
+      /* Adjust the width percentage for smaller screens if needed */
+      width: 100%;
+    }
+  }
+}

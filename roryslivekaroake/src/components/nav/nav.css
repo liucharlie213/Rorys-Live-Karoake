@@ -1,8 +1,7 @@
 .nav__bar {
   display: flex;
-  align-items: center;
-  margin: 30px 50px 30px 30px;
-  /* background: pink; */
+  align-items: flex-start;
+  margin: 3vh 3vh
 }
 
 .nav__website {
@@ -19,11 +18,30 @@
   display: flex;
   justify-content: space-between;
   width: 150px;
+  /* width: 15vh; */
 
 }
 .nav__icon {
   width: 20px;
   height: 20px;
 }
+
+@media only screen and (max-width: 480px) {
+  .nav__bar {
+    margin: 4vh 3vh;
+    align-items: flex-start;
+  }
+
+  .nav__website {
+    width: 300vh;
+    line-height: 40px;
+  } 
+
+  .nav__icons {
+    width: 15vh;
+  }
+
+}
+
 
 
