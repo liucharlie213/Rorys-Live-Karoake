@@ -105,17 +105,17 @@ a:active {
   }
 
   .landing__text {
-    margin-top: 5vh;
+    margin-top: 3vh;
     align-items: flex-start;
   }
 
   #landing__quote {
     width: 50vh;
-    font-size: 65px;
+    font-size: 60px;
     text-align: left;
-    line-height: 80px;;
+    line-height: 70px;
     margin-left: 12vw;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
 
   #landing__info {
@@ -123,7 +123,7 @@ a:active {
     text-align: left;
     margin-left: 12vw;
     font-size: 25px;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
   }
 
   .landing__highlight {
@@ -132,16 +132,26 @@ a:active {
 
   .landing__highlight::after {
     height: 13px;
-    bottom: 5%;
+    bottom: -7%;
     left: 0px;
     width: 100%
   }
 
   .landing__btns {
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    gap: 4vh;
+    gap: 1vh;
+    font-size: 30px;
+  }
+
+  #book__btn {
+    font-size: 30px;
+  }
+
+  #landing__btn {
+    width: 15vw;
   }
 }
 

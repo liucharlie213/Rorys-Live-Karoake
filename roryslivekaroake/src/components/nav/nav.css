@@ -1,12 +1,11 @@
 .nav__bar {
   display: flex;
-  align-items: flex-start;
-  margin: 3vh 3vh
+  margin-top: 3vh; 
+  margin-left: 3vw;
+  margin-right: 3vw;
+  justify-content: space-between;
 }
 
-.nav__website {
-  flex: 90;
-}
 
 #nav__title {
   font-size: var(--title-size);
@@ -28,17 +27,29 @@
 
 @media only screen and (max-width: 480px) {
   .nav__bar {
-    margin: 4vh 3vh;
-    align-items: flex-start;
+    margin: 3vh 3vw; 
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6vw;
+    /* flex-direction: column; */
+    /* justify-content: center; */
   }
 
-  .nav__website {
-    width: 300vh;
-    line-height: 40px;
-  } 
+  #nav__title {
+    font-size: 30px;
+    text-align: left;
+    width: 100vw;
+  
+  }
 
   .nav__icons {
-    width: 15vh;
+    width: 12vh;
+  }
+
+  .nav__icon {
+    width: 17px;
+    height: 17px;
   }
 
 }
