@@ -1,9 +1,5 @@
 .carousel__container{
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  margin-top: 150px;
+  margin-top: 10vw;
 }
 
 #blank__space {
@@ -44,8 +40,11 @@
 .carousel {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 70px;
+  width: 100%;
+  padding-right: 6vw;
+  padding-left: 6vw;
 }
 
 .carousel__buttons {
@@ -54,6 +53,7 @@
   padding: 5px; 
   border: none; /* Optional: Removes border */
   background-color: transparent; 
+  z-index: 100;
 }
 
 /* CSS class for the image within the button */
@@ -62,8 +62,14 @@
   height: auto; /* Keeps the image aspect ratio */
 }
 
+.song__carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
 .song__info {
-  width: 300px;
+  width: 100vw;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -85,6 +91,7 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
+  margin-top: 3vh;
 }
 
 #song__title {
