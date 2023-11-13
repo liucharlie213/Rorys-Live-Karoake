@@ -1,13 +1,11 @@
 .nav__bar {
   display: flex;
-  align-items: center;
-  margin: 30px 50px 30px 30px;
-  /* background: pink; */
+  margin-top: 3vh; 
+  margin-left: 3vw;
+  margin-right: 3vw;
+  justify-content: space-between;
 }
 
-.nav__website {
-  flex: 90;
-}
 
 #nav__title {
   font-size: var(--title-size);
@@ -19,11 +17,42 @@
   display: flex;
   justify-content: space-between;
   width: 150px;
+  /* width: 15vh; */
 
 }
 .nav__icon {
   width: 20px;
   height: 20px;
 }
+
+@media only screen and (max-width: 480px) {
+  .nav__bar {
+    margin: 3vh 3vw; 
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6vw;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+  }
+
+  #nav__title {
+    font-size: 30px;
+    text-align: left;
+    width: 100vw;
+  
+  }
+
+  .nav__icons {
+    width: 12vh;
+  }
+
+  .nav__icon {
+    width: 17px;
+    height: 17px;
+  }
+
+}
+
 
 

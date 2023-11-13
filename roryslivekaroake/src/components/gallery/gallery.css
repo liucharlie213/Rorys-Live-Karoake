@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px; 
-  gap: 50px;
+  margin-top: 20vh; 
+  gap: 20vh;
   /* margisn-bottom: 150px; */
   /* or magin-top: 125px? */
 }
@@ -23,12 +23,13 @@
   border-radius: 5px 5px 5px 5px;
 }
 
-.gallery__background {
-  position: relative;
-  display: inline-block;
+.computer__gallery {
+  background-color: #1d1e22;
+  padding: 10vh 7vh;
+  border-radius: 10px;;
 }
 
-.gallery__background::after {
+/* .gallery__background::after {
   content: "";
   position: absolute;
   background-color: #1d1e22; 
@@ -38,4 +39,60 @@
   left: -6%;
   z-index: -1;
   border-radius: 5px 5px 5px 5px;
+} */
+
+.phone__gallery {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+  .gallery {
+    margin-top: 10vh; 
+  }
+  
+  .computer__gallery {
+    display: none;
+  }
+
+  .phone__gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 5vh;
+  }
+
+  .gallery__photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #phone__image {
+    width: 330px;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+
+  .gallery__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 20vh;
+  }
+  .gallery__button {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+  }
+
+  .gallery__buttons img {
+    width: 100%;  /* Makes the image fill the button */
+    height: auto; /* Keeps the image aspect ratio */
+  }
+
 }

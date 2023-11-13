@@ -24,6 +24,7 @@ const Nav = () => {
               <img src={donateIcon} className="nav__icon"/>
             </a>
           </div>
+          
         </div>      
     </nav>
   )

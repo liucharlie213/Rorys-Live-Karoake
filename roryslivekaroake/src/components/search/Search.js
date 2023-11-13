@@ -49,7 +49,7 @@ const Search = () => {
     }
   })
 
-  const handdleToggleDropdown = () => {
+  const handleToggleDropdown = () => {
     setDropdownOpen(prevState => !prevState);
   }
 
@@ -61,8 +61,7 @@ const Search = () => {
 
   return (
     <section id="search">
-    <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p>
-
+    <p className="search__title">...OR FIND YOUR OWN TUNE</p>
     <div className="search__container">
       {/* <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p> */}
       <div className="search__and__sort">
@@ -76,7 +75,7 @@ const Search = () => {
         <div className="sort__section">
           <p id="sort__by">Sort By:</p>
           <div className="sort__dropdown">
-            <div className="selected__sort" onClick={handdleToggleDropdown}>
+            <div className="selected__sort" onClick={handleToggleDropdown}>
               {selectedOption}
             </div>
             {isDropdownOpen && (
@@ -93,20 +92,31 @@ const Search = () => {
         <table>
           <thead>
             <tr>
-              <th>Title</th>
-              <th>Artist</th>
-              <th>Tags</th>
+              <th className="computer__header">Title</th>
+              <th className="computer__header">Artist</th>
+              <th className="computer__header">Tags</th>
             </tr>
           </thead>
           <tbody>
             {sortedData.map(item => (
               <tr key={item.Title + item.Artist}>
-                <td className="cover__title">
-                   <img src={item.Cover} className="album__cover"/>
+                <td className="phone__song">
+                  <img src={item.Cover} className="album__cover" alt=""/>
+                  <div className="title__artist">
+                    <div id="phone__title">{item.Title}</div>
+                    <div className="artist__tags">
+                      <p id="phone__artist">{item.Artist}</p>
+                      <p id="phone__tags">{item.Tags ? <>&nbsp;- {item.Tags}</> : ""}</p>
+                    </div>
+                    
+                  </div>
+                </td>
+                <td className="cover__title computer__song" >
+                   <img src={item.Cover} className="album__cover" alt=""/>
                    {item.Title}
                  </td>
-                <td>{item.Artist}</td>
-                <td>{item.Tags}</td>
+                <td className="computer__song">{item.Artist}</td>
+                <td className="computer__song">{item.Tags}</td>
               </tr>
             ))}
           </tbody>
