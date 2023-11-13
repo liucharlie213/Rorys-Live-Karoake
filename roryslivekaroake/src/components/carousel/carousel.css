@@ -47,13 +47,6 @@
   padding-left: 6vw;
 }
 
-.browse__popular {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50vh;
-}
-
 .carousel__buttons {
   width: 50px; 
   height: 50px; 
@@ -73,8 +66,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5vw;
+  gap: 3vw;
 }
+
 .song__info {
   width: 100vw;
   text-align: center;
@@ -110,21 +104,31 @@
   font-weight: 300;
 }
 
+#song__title, #song__artist {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 10vw;
+  min-width: 10vw;
+}
+
+
 
 @media only screen and (max-width: 480px) {
   .carousel__container {
-    margin-top: 7vh;
-    width: 100%;
+    margin-top: 3vh;
+    width: 100vw;
   }
   .carousel__quote {
     text-align: left;
     margin-left: 6vw;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 50px;
   }
 
   .carousel {
     width: 100%;
+    margin-top: 5vh;
   }
 
   .browse__popular {
@@ -133,22 +137,41 @@
 
   .song__info {
     margin: 0 0vh;
+
+  }
+
+  .song__text {
+    margin-top: 1vh;
+  }
+
+  #song__cover {
+    width: 135px;
+    height: 135px;
   }
   
   #song__title {
-    font-size: 21px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   #song__artist {
-    font-size: 16px;
+    font-size: 15px;
   }
 
+  #song__title, #song__artist {
+    max-width: 30vw;
+    min-width: 30vw;
+  }
 
+  .song__carousel {
+    width: 50vw;
+  }
   .carousel__buttons {
     width: 30px;
     height: 30px;
     padding: 0;
   }
+
 
 
 

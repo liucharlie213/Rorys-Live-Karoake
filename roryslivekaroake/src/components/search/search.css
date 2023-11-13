@@ -78,7 +78,7 @@
   top: 0%;
   background-color: #1d1e22;
   color:#f9f9f9;
-  padding: 5vw;
+  padding: 1vw;
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 10px;
@@ -93,6 +93,8 @@
   background-color: #1d1e22;
   padding: 30px 55px;
   border-radius: 7px;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 table {
@@ -151,10 +153,10 @@ td {
   }
 
   .search__title {
-    width: 90%;
-    font-size: 45px;
+    width: 95%;
+    font-size: 40px;
     line-height: 50px;
-    margin-top: 7vh;
+    margin-top: 5vh;
   }
 
   .search__and__sort {
@@ -170,7 +172,9 @@ td {
 
   .dropdown__content {
     display: flex;
-    gap: 4vw;
+    gap: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
 
   table {
@@ -195,6 +199,7 @@ td {
     align-items: center;
     gap: 2vh;
     width: 75%;
+
   }
 
   .title__artist {

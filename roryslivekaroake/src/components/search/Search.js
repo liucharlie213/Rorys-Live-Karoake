@@ -62,7 +62,6 @@ const Search = () => {
   return (
     <section id="search">
     <p className="search__title">...OR FIND YOUR OWN TUNE</p>
-
     <div className="search__container">
       {/* <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p> */}
       <div className="search__and__sort">

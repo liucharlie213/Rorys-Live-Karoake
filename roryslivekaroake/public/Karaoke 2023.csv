@@ -1,7 +1,7 @@
-Title,Artist,Tags,Cover
-40,U2,80s,https://i.scdn.co/image/ab67616d0000b273ab282af9bbff8b79516d8cbe
-1001,The Cat Empire,Aussie,https://i.scdn.co/image/ab67616d00001e02812f9086351d72d5ac9f2343
-1985,Bowling For Soup,2000s,https://i.scdn.co/image/ab67616d0000b273e9c361da971c6e81b51ef06b
+Title,Artist,Tags,Cover, Difficulty,
+40,U2,80s,https://i.scdn.co/image/ab67616d0000b273ab282af9bbff8b79516d8cbe,easy
+1001,The Cat Empire,Aussie,https://i.scdn.co/image/ab67616d00001e02812f9086351d72d5ac9f2343, hard
+1985,Bowling For Soup,2000s,https://i.scdn.co/image/ab67616d0000b273e9c361da971c6e81b51ef06b, medium
 1999,Prince,80s,https://i.scdn.co/image/ab67616d0000b273337c5517a9a62e0c3f17d59f
 24K Magic,Bruno Mars,00s,https://i.scdn.co/image/ab67616d0000b273232711f7d66a1e19e89e28c5
 9 to 5,Dolly Parton,"Country, 80s",https://i.scdn.co/image/ab67616d0000b273060ccf36ab5b0e0a739799ec
