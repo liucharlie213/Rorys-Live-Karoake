@@ -64,6 +64,7 @@ const Search = () => {
     <p className="search__title">...OR FIND YOUR OWN TUNE</p>
     <div className="search__container">
       {/* <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p> */}
+      <div className="request__song">Can't find what you're looking for? <span>Request a Song!</span></div>
       <div className="search__and__sort">
         <input 
           type="text"
@@ -95,6 +96,7 @@ const Search = () => {
               <th className="computer__header">Title</th>
               <th className="computer__header">Artist</th>
               <th className="computer__header">Tags</th>
+              <th className="computer__header"></th>              
             </tr>
           </thead>
           <tbody>
@@ -117,6 +119,13 @@ const Search = () => {
                  </td>
                 <td className="computer__song">{item.Artist}</td>
                 <td className="computer__song">{item.Tags}</td>
+                <td className="difficulty__indicator">
+                {item.Difficulty ? 
+                  item.Difficulty === 'easy' ? '🟢' :
+                  item.Difficulty === 'medium' ? '🟠' :
+                  item.Difficulty === 'hard' ? '🔴' :
+                  '' : ''}
+                </td>
               </tr>
             ))}
           </tbody>
