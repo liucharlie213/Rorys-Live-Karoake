@@ -1,0 +1,85 @@
+.request__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width:100vw;
+  gap: 7vh;
+  margin-bottom: 10vh;
+}
+
+.request__title {
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.request__song {
+  display: flex;
+  justify-content: space-between;
+
+  width: 80vw;
+
+}
+
+.request__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.request__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vh;
+  width: 40vw;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 35px;;
+}
+
+.request__info {
+  margin-bottom: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 36vw;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.request__input {
+  font-size: 18px; 
+  font-family: var(--text-font);
+  padding-left: 20px;
+  height: 40px;
+  width: 270px;
+  border: none;
+  border-radius: 7px; 
+  background-color: #1d1e22;
+  color: #f9f9f9;
+  outline: none; 
+  transition: box-shadow 0.3s ease; 
+  font-weight: 300;
+}
+
+.submit__container {
+  align-self: flex-end; /* Aligns the button container to the end */
+  width: 100%; /* Ensures the container takes full width */
+  display: flex;
+  justify-content: flex-end; /* Positions the button to the right */
+}
+
+
+.submit__button {
+  font-size: 25px;
+  font-family: var(--text-font);
+  padding: 10px 15px 4px 15px;
+  border-radius: 5px 5px 5px 5px;
+  font-weight: 300; 
+  background-color: #f9f9f9;
+  color: rgba(17,17,17,255);
+}
+
