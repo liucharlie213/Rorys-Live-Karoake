@@ -1,5 +1,11 @@
+#search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .search__container {
-  margin-top: 7vw;
+  margin-top: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,12 +22,25 @@
   font-weight: 300; 
 }
 
+.request__song__link {
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+#request__link {
+  cursor: pointer;
+  border-bottom: 1px solid #f9f9f9;  
+}
+
 .search__and__sort {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1010px;
-  /* background-color: pink; */
+  width: 85vw;
 }
 
 #sort__by {
@@ -74,7 +93,7 @@
   font-size: 18px; 
   font-weight: 300;
   position: absolute;
-  left: 106%;  /* Ensures that it appears right below the selected__sort div */
+  left: 106%;  
   top: 0%;
   background-color: #1d1e22;
   color:#f9f9f9;
@@ -93,20 +112,18 @@
   background-color: #1d1e22;
   padding: 30px 55px;
   border-radius: 7px;
-  max-height: 90vh;
+  max-height: 70vh;
   overflow-y: auto;
 }
 
 table {
-  width: 900px;
+  width: 85vw;
   border-collapse: collapse;
-  /* border: 1px solid white; */
 }
 
 th, td {
-  width: 33.33%;
+  width: 25vw;
   padding: 10px;
-  /* text-align: left; */
 }
 
 th {
@@ -115,6 +132,7 @@ th {
   font-size: 25px;
   font-weight: 300;
   padding-bottom: 20px;
+  
 }
 
 .phone__header {
@@ -128,7 +146,6 @@ td {
 
 .cover__title {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
   width: auto;
@@ -142,13 +159,49 @@ td {
   border-radius: 5px;
 }
 
+
 .phone__song {
   display: none;
 }
 
+.difficulty__circle {
+  display: inline-block;
+  width: 10px;  
+  height: 10px; 
+  border-radius: 50%; 
+}
+
+.difficulty__circle.easy {
+  background-color: rgb(48, 183, 48); 
+}
+
+.difficulty__circle.medium {
+  background-color: rgb(255, 172, 19); 
+}
+
+.difficulty__circle.hard {
+  background-color: rgb(255, 58, 58); 
+}
+
+
 @media screen and (max-width: 480px) {
+
+  .table__container {
+    border-radius: 0;
+    padding-left: 70vw;
+  }
+
+  td, th {
+    width: 65vw;
+  }
+
+  .test__div {
+    display: flex;
+    gap: 15vw;
+  }
+
   .search__container {
-    width: 100vw;
+    width: 10vw;
     margin-top: 7vh;
   }
 
@@ -157,6 +210,7 @@ td {
     font-size: 40px;
     line-height: 50px;
     margin-top: 5vh;
+    margin-left: 30vw;
   }
 
   .search__and__sort {
@@ -177,19 +231,20 @@ td {
     padding-right: 3vw;
   }
 
+  .request__song__link {
+    font-size: 16px;
+  }
+
   table {
-    width: 100vw;
-    margin-left: 10vw;
+    min-width: 30vw;
   }
 
-  .computer__header {
-    display: none;
-  }
-
+  thead,
+  .computer__header,
   .computer__song {
     display: none;
   }
-
+  
   .phone__header {
     display: initial;
   }
@@ -198,8 +253,11 @@ td {
     display: flex;
     align-items: center;
     gap: 2vh;
-    width: 75%;
+  }
 
+  .phone__song.difficulty__indicator {
+    text-align: right; 
+    vertical-align: middle; 
   }
 
   .title__artist {
@@ -210,11 +268,12 @@ td {
 
   #phone__title {
     font-size: 18px;
-    font-weight: 400;;
+    font-weight: 400;
+
     white-space: nowrap; 
     overflow: hidden;    
     text-overflow: ellipsis;
-    max-width: 70vw;
+    max-width: 50vw;
   }
 
   .artist__tags {
@@ -230,6 +289,4 @@ td {
     text-overflow: ellipsis;
     max-width: 40vw;
   }
-  
-
 }

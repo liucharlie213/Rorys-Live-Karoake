@@ -5,21 +5,21 @@
   align-items: center;
   margin-top: 20vh; 
   gap: 20vh;
-  /* margisn-bottom: 150px; */
-  /* or magin-top: 125px? */
 }
 
 .gallery__photos {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 900px;  
+  width: 80vw;  
+  gap: 3vw;
 }
 
 .gallery__photo {
-  height: 350px;
-  width: 280px;
+  height: 50vh;
+  width: 30vw;
   object-fit: cover;
+  overflow: hidden;
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -28,18 +28,6 @@
   padding: 10vh 7vh;
   border-radius: 10px;;
 }
-
-/* .gallery__background::after {
-  content: "";
-  position: absolute;
-  background-color: #1d1e22; 
-  height: 500px; 
-  width: 112%; 
-  bottom: -21%; 
-  left: -6%;
-  z-index: -1;
-  border-radius: 5px 5px 5px 5px;
-} */
 
 .phone__gallery {
   display: none;
@@ -69,13 +57,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 0px;
+    width: auto;
   }
 
   #phone__image {
-    width: 330px;
-    height: 470px;
+    width: 80vw;
+    height: 100vh;
     object-fit: cover;
     border-radius: 10px;
+    overflow: hidden;
 
   }
 
@@ -91,8 +82,8 @@
   }
 
   .gallery__buttons img {
-    width: 100%;  /* Makes the image fill the button */
-    height: auto; /* Keeps the image aspect ratio */
+    width: 100%;  
+    height: auto; 
   }
 
 }

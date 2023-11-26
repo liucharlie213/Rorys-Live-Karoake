@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 import "./search.css"
-// import defaultCover from "../../assets/photos/default_cover.jpeg"
 
 
 const Search = () => {
@@ -32,10 +31,6 @@ const Search = () => {
       item.Tags.toLowerCase().includes(searchTerm.toLowerCase())
   ) : data;
 
-  // const handleSortChange = (e) => {
-  //   setSortOrder(e.target.value);
-  // }
-
   const sortedData = [...filteredData].sort((a,b) => {
     switch(sortOrder) {
       case "Title":
@@ -62,9 +57,8 @@ const Search = () => {
   return (
     <section id="search">
     <p className="search__title">...OR FIND YOUR OWN TUNE</p>
+    <div className="request__song__link">Can't find what you're looking for?&nbsp; <a href="#request" id="request__link">Request a Song!</a></div>
     <div className="search__container">
-      {/* <p className="search__title"><span className="search__span">...OR FIND YOUR OWN TUNE</span></p> */}
-      <div className="request__song">Can't find what you're looking for? <span>Request a Song!</span></div>
       <div className="search__and__sort">
         <input 
           type="text"
@@ -96,23 +90,34 @@ const Search = () => {
               <th className="computer__header">Title</th>
               <th className="computer__header">Artist</th>
               <th className="computer__header">Tags</th>
-              <th className="computer__header"></th>              
+              <th className="computer__header">Difficulty</th>              
             </tr>
           </thead>
           <tbody>
+          <div className="phone__container">
+              {sortedData.map(item => (
+                  <tr key={item.Title + item.Artist}>
+                    <div className="test__div"><td className="phone__song">
+                        <img src={item.Cover} className="album__cover" alt=""/>
+                      <div className="title__artist">
+                        <div id="phone__title">{item.Title}</div>
+                        <div className="artist__tags">
+                          <p id="phone__artist">{item.Artist}</p>
+                          <p id="phone__tags">{item.Tags ? <>&nbsp;- {item.Tags}</> : ""}</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td className="phone__song difficulty__indicator">
+                      {item.Difficulty ? <span className={`difficulty__circle ${item.Difficulty}`}></span> : ''}
+                    </td>
+                  </div>
+                  </tr>
+                ))}
+          </div>
+          
             {sortedData.map(item => (
               <tr key={item.Title + item.Artist}>
-                <td className="phone__song">
-                  <img src={item.Cover} className="album__cover" alt=""/>
-                  <div className="title__artist">
-                    <div id="phone__title">{item.Title}</div>
-                    <div className="artist__tags">
-                      <p id="phone__artist">{item.Artist}</p>
-                      <p id="phone__tags">{item.Tags ? <>&nbsp;- {item.Tags}</> : ""}</p>
-                    </div>
-                    
-                  </div>
-                </td>
+                
                 <td className="cover__title computer__song" >
                    <img src={item.Cover} className="album__cover" alt=""/>
                    {item.Title}
@@ -120,11 +125,9 @@ const Search = () => {
                 <td className="computer__song">{item.Artist}</td>
                 <td className="computer__song">{item.Tags}</td>
                 <td className="difficulty__indicator">
-                {item.Difficulty ? 
-                  item.Difficulty === 'easy' ? '🟢' :
-                  item.Difficulty === 'medium' ? '🟠' :
-                  item.Difficulty === 'hard' ? '🔴' :
-                  '' : ''}
+                  {item.Difficulty ? 
+                    <span className={`difficulty__circle computer__song ${item.Difficulty}`}></span> : ''
+                  }
                 </td>
               </tr>
             ))}

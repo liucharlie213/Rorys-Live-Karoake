@@ -10,7 +10,6 @@ const testSearchFunctionality = () => {
 
       console.log('Access Token:', accessToken);
 
-      // Use the access token to search for a track
       return searchTrack('Jayu', 'SE SO NEON', accessToken);
     })
     .then(trackResults => {

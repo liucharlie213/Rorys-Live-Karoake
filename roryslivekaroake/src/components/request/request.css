@@ -83,3 +83,42 @@
   color: rgba(17,17,17,255);
 }
 
+@media only screen and (max-width: 480px) {
+  .request__container {
+    margin-top: 4vh;
+    gap: 3vh;
+  }
+  .request__title {
+    font-size: 40px;
+  }
+
+  .request__text {
+    font-size: 20px;
+    width: 85vw;
+    margin-top: 3vh;
+  }
+
+  .request__song {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3vh;
+  }
+
+  .submit__container {
+    justify-content: flex-start;
+  }
+
+  .form__label {
+    font-size: 20px;
+  }
+
+  .request__input {
+    width: 50vw;
+  }
+
+  .request__info {
+    width: 80vw;
+  }
+  
+}
