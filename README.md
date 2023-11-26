@@ -14,10 +14,10 @@ Original Website: http://www.acoustickaraoke.live/
 - a carousel of popular songs
 - table of available songs
 - straightforwards search and sorting through the songs
-
-# TODO:
 - difficulty decorating on select songs
 - song request form
+
+# TODO:
 - CSV to JSON for easier database editing
 
 
