@@ -39,70 +39,80 @@ const Request = () => {
         }, (error) => {
           console.log('Email sending error:', error.text);
         });
+
+        setFormData({
+          name: "",
+          email: "",
+          songTitle: "",
+          songArtist: ""
+        });
+        setError('');
     };
 
   return (
-    <div className="request__container">
-      <div className="request__title">
-        <p>REQUEST A SONG</p>
-      </div>
-      <div className="request__song">
-        <div className="request__text">
-          <p>
-            Got a song you'd love to perform, but can't find it on the list?</p>
-          <p>
-          Fill in your details and your song request, and I'll try my best to add it!
-          </p>
+    <section id="request">
+      <div className="request__container">
+        <div className="request__title">
+          <p>REQUEST A SONG</p>
         </div>
+        <div className="request__song">
+          <div className="request__text">
+            <p>
+              Got a song you'd love to perform, but can't find it on the list?</p>
+            <p>
+            Fill in your details and your song request, and I'll try my best to add it!
+            </p>
+          </div>
 
-      <div className="request__form">
-        <form ref={form}>
-          <div className="request__info">
-            <label>Name:</label>
-            <input 
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              className="request__input" />
-          </div>
-          <div className="request__info">
-            <label>Email:</label>
-            <input 
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="request__input" />
-          </div>
-          <div className="request__info">
-            <label>Song Title:</label>
-            <input 
-              type="text"
-              name="songTitle"
-              value={formData.songTitle}
-              onChange={handleChange}
-              className="request__input" />
-          </div>
-          <div className="request__info">
-            <label>Song Artist:</label>
-            <input 
-              type="text"
-              name="songArtist"
-              value={formData.songArtist}
-              onChange={handleChange}
-              className="request__input"
-              id="last__input" />
-          </div>
-          {error && <div className="error">{error}</div>}
-          <div className="submit__container">
-            <button onClick={handleSubmit} type="submit" className="submit__button">Submit</button>
-          </div>
-        </form>
+        <div className="request__form">
+          <form ref={form}>
+            <div className="request__info">
+              <label><p className="form__label">Name:</p></label>
+              <input 
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                className="request__input" />
+            </div>
+            <div className="request__info">
+              <label><p className="form__label">Email:</p></label>
+              <input 
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                className="request__input" />
+            </div>
+            <div className="request__info">
+              <label><p className='form__label'>Song Title:</p></label>
+              <input 
+                type="text"
+                name="songTitle"
+                value={formData.songTitle}
+                onChange={handleChange}
+                className="request__input" />
+            </div>
+            <div className="request__info">
+              <label><p className='form__label'>Song Artist:</p></label>
+              <input 
+                type="text"
+                name="songArtist"
+                value={formData.songArtist}
+                onChange={handleChange}
+                className="request__input"
+                id="last__input" />
+            </div>
+            {error && <div className="error">{error}</div>}
+            <div className="submit__container">
+              <button onClick={handleSubmit} type="submit" className="submit__button">Submit</button>
+            </div>
+          </form>
+        </div>
+        </div>
+        
       </div>
-      </div>
-      
-    </div>
+    </section>
   );
 };
 

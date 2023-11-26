@@ -17,7 +17,6 @@
   font-size: var(--title-size);
   font-weight: 300;
   text-align: center;
-  /* margin-top: 50px; */
 }
 
 
@@ -29,10 +28,10 @@
 .carousel__span::after {
   content: "";
   position: absolute;
-  background-color: #f9f9f9; /* Choose your desired color */
-  height: 5px; /* Adjust the height as needed */
+  background-color: #f9f9f9; 
+  height: 5px; 
   width: 100%;
-  bottom: -20%; /* Position at the bottom of the word */
+  bottom: -20%; 
   left: 0%;
   z-index: -1;
 }
@@ -51,15 +50,14 @@
   width: 50px; 
   height: 50px; 
   padding: 5px; 
-  border: none; /* Optional: Removes border */
+  border: none;
   background-color: transparent; 
   z-index: 100;
 }
 
-/* CSS class for the image within the button */
 .carousel__buttons img {
-  width: 100%;  /* Makes the image fill the button */
-  height: auto; /* Keeps the image aspect ratio */
+  width: 100%;  
+  height: auto; 
 }
 
 .song__carousel {
