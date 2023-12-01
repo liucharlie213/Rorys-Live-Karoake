@@ -32,7 +32,7 @@ const Request = () => {
       }
   
       // EmailJS function to send form data
-      emailjs.sendForm('service_pcbxva1', 'template_dn0ksb6', form.current, '0cX-7o13oiwnBQJmL')
+      emailjs.sendForm('service_ftsaeiq', 'template_5i0v1al', form.current, 'GhFjx1MiJf0NQ-uTV')
         .then((result) => {
           console.log('Email sent:', result.text);
           // Handle success (e.g., clear form, show success message)
