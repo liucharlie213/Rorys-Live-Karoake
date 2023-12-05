@@ -42,7 +42,7 @@ const searchTrack = async (trackName, artistName, accessToken) => {
       return {
         name: track.name,
         artist: track.artists.map(artist => artist.name).join(', '),
-        albumCoverUrl: track.album.images[0].url, // Highest resolution image
+        albumCoverUrl: track.album.images[0].url,
       };
     }
   } catch (error) {
