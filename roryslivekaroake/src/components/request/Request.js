@@ -35,7 +35,6 @@ const Request = () => {
       emailjs.sendForm('service_ftsaeiq', 'template_5i0v1al', form.current, 'GhFjx1MiJf0NQ-uTV')
         .then((result) => {
           console.log('Email sent:', result.text);
-          // Handle success (e.g., clear form, show success message)
         }, (error) => {
           console.log('Email sending error:', error.text);
         });
