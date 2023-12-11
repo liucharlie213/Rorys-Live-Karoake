@@ -10,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; Adjust as needed to center vertically on the viewport */
   text-align: center;
   font-family: var(--text-font);
   margin-top: 135px;
@@ -43,13 +42,13 @@
   content: "";
   position: absolute;
   background-color: #f9f9f9;
-  height: 15px; /* Adjust the height as needed */
+  height: 15px;
   width: 0%; 
-  bottom: -10%; /* Position at the bottom of the word */
+  bottom: -10%; 
   left: -3%;
   z-index: -1;
   transition: width 2s ease;
-  animation: underline-slide 1s ease forwards; /* Add this line */
+  animation: underline-slide 1s ease forwards; 
 }
 
 
@@ -138,7 +137,6 @@ a:active {
   }
 
   .landing__btns {
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -170,7 +168,6 @@ a:active {
       width: 0%;
     }
     to {
-      /* Adjust the width percentage for smaller screens if needed */
       width: 100%;
     }
   }

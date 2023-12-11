@@ -1,8 +1,9 @@
 # Rory's-Live-Karaoke
 Rebuilding a promotional event website for Rory's Live Karaoke
 
-Original Website: http://www.acoustickaraoke.live/
+Original Website: http://roryslivekaraoke.com/
 
+New Website: http://www.acoustickaraoke.live/
 
 # Focus on:
 - improving aesthetics, promotional value, event usability
