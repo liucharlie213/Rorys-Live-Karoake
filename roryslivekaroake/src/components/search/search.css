@@ -232,6 +232,7 @@ td {
   }
 
   .request__song__link {
+    margin-top: 3vh;
     font-size: 16px;
   }
 

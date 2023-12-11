@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <Landing />
       <Gallery />
-      <Carousel />
+      {/* <Carousel /> */}
       <Search />
       <Request />
     </div>
