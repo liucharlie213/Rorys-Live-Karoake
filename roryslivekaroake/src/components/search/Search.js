@@ -11,7 +11,7 @@ const Search = () => {
   const [selectedOption, setSelectedOption] = useState("None");
 
   useEffect(() => {
-    Papa.parse("/Karaoke 2023.csv", {
+    Papa.parse("/Karaoke2023.csv", {
       download: true,
       header: true,
       complete: (result) => {

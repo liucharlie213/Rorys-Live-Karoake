@@ -1,7 +1,7 @@
-Title,Artist,Tags,Cover,Difficulty
-40,U2,80s,https://i.scdn.co/image/ab67616d0000b273ab282af9bbff8b79516d8cbe,easy
-1001,The Cat Empire,Aussie,https://i.scdn.co/image/ab67616d00001e02812f9086351d72d5ac9f2343,hard
-1985,Bowling For Soup,2000s,https://i.scdn.co/image/ab67616d0000b273e9c361da971c6e81b51ef06b,medium
+Title,Artist,Tags,Cover
+40,U2,80s,https://i.scdn.co/image/ab67616d0000b273ab282af9bbff8b79516d8cbe
+1001,The Cat Empire,Aussie,https://i.scdn.co/image/ab67616d00001e02812f9086351d72d5ac9f2343
+1985,Bowling For Soup,2000s,https://i.scdn.co/image/ab67616d0000b273f9b3ece3271d3a5fa73d3759
 1999,Prince,80s,https://i.scdn.co/image/ab67616d0000b273337c5517a9a62e0c3f17d59f
 24K Magic,Bruno Mars,00s,https://i.scdn.co/image/ab67616d0000b273232711f7d66a1e19e89e28c5
 9 to 5,Dolly Parton,"Country, 80s",https://i.scdn.co/image/ab67616d0000b273060ccf36ab5b0e0a739799ec
@@ -19,7 +19,7 @@ Ain't Nobody,Chaka Khan,80s,https://i.scdn.co/image/ab67616d0000b273590cdfb21e05
 Alabama Pines,Jason Isbell,Country,https://i.scdn.co/image/ab67616d0000b27370e60f739259aef3425486f9
 Alaska,Maggie Rogers,2010s,https://i.scdn.co/image/ab67616d0000b273d658a02ba8931985bdc4e0da
 Albertine,Brooke Fraser,,https://i.scdn.co/image/ab67616d0000b273515aedb12b5ebe66ec202bb7
-Alexanderhamilton,Hamilton,"Showtunes, 2010s",https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
+Alexander Hamilton,Hamilton,"Showtunes, 2010s",https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
 Alive,Pearl Jam,Rock,https://i.scdn.co/image/ab67616d0000b273d400d27cba05bb0545533864
 All Along the Watchtower,Bob Dylan,60s,https://i.scdn.co/image/ab67616d0000b27381efb7dfa40bbfa10a199e38
 All I Want For Christmas Is You,Mariah Carey,Christmas,https://i.scdn.co/image/ab67616d0000b2734246e3158421f5abb75abc4f
@@ -28,23 +28,28 @@ All My Life,Foo Fighters,Rock,https://i.scdn.co/image/ab67616d0000b273b00ee453b3
 All Shook Up,Elvis Presley,50s,https://i.scdn.co/image/ab67616d0000b27320ee3e86e17f17239bef1f76
 All Star,Smash Mouth,"Pop, Rock, 90s",https://i.scdn.co/image/ab67616d0000b2734f3bbf9631faeb8de9912a23
 All The Small Things,Blink 182,00s,https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74
+All Too Well,Taylor Swift,2010s,https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d
 All You Need is Love,The Beatles,60s,https://i.scdn.co/image/ab67616d0000b273692d9189b2bd75525893f0c1
 All Your Favorite Bands,Dawes,,https://i.scdn.co/image/ab67616d00001e024ca2ff72d8628832418d69af
 Always,Switchfoot,,https://i.scdn.co/image/ab67616d0000b2737bf134795c342204d0d4c731
 Amazing Grace,John Newton,,https://i.scdn.co/image/ab67616d0000b273f96fc7bedb05df678db0720c
+American Girl,Tom Petty & The Heartbreakers,70s,https://i.scdn.co/image/ab67616d0000b2737e42a53ea7f2ad4f36ab23a5
 American Idiot,Green Day,Rock,https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b
 Ana's Song,silverchair,Aussie,https://i.scdn.co/image/ab67616d0000b2731b0201a6273523f60b8b5406
 Angel,Sarah McLaughlan,,https://i.scdn.co/image/ab67616d00001e029469c3ab051994ec802574a6
 Angel Eyes,ABBA,70s,https://i.scdn.co/image/ab67616d0000b27371e992cb096e2ac2a076922b
-Angels Wehaveheard onhigh,Christmas,,https://i.scdn.co/image/ab67616d0000b27348f78bd3fcce8165c6c182fa
+Angel is a Centerfold,J. Geils Band,,https://i.scdn.co/image/ab67616d0000b27338b2429ef948e6ca8d3ab599
+Angels We Have Heard on High,Christmas,,https://i.scdn.co/image/ab67616d0000b27348f78bd3fcce8165c6c182fa
 Anti-Hero,Taylor Swift,2020s,https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5
 Ants Marching,Dave Matthews Band,,https://i.scdn.co/image/ab67616d0000b2738691f3580a9747e8c5c1093e
+Any Man of Mine,Shania Twain,"90s, Country",https://i.scdn.co/image/ab67616d0000b27397c04b4a131dc95ce5e83107
 Are You Gonna Go My Way,Lenny Kravitz,Rock,https://i.scdn.co/image/ab67616d0000b273542d87e4d1512bf7facb3860
 Arms,The Paper Kites,Aussie,https://i.scdn.co/image/ab67616d0000b2732aefd1367a9a29d9e635591f
 Arms Unfolding,dodie,,https://i.scdn.co/image/ab67616d0000b273f5594201858122e8f30fa7e3
 As,Stevie Wonder,,https://i.scdn.co/image/ab67616d0000b2732fee61bfec596bb6f5447c50
+As Long As You Love Me,Backstreet Boys,90s,https://i.scdn.co/image/ab67616d0000b273dafd4b9261a1ab9acd53a53d
 At Last,Etta James,,https://i.scdn.co/image/ab67616d0000b273b2229a8fdf377abaf3652624
-At thehop,Danny and the Juniors,,https://i.scdn.co/image/ab67616d0000b27362b3c3aec00c8a1d7e4663ca
+At the Hop,Danny and the Juniors,,https://i.scdn.co/image/ab67616d0000b27362b3c3aec00c8a1d7e4663ca
 Away in a Manger,Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
 Baby One More Time,Britney Spears,90s,https://i.scdn.co/image/ab67616d0000b2738e49866860c25afffe2f1a02
 Babylon,David Gray,,https://i.scdn.co/image/ab67616d0000b273d53ec2e07184f28ac9ed2a99
@@ -57,23 +62,24 @@ Ballroom Blitz,The Sweet,"Rock, 70s",https://i.scdn.co/image/ab67616d0000b27338b
 Bam Bam,Sister Nancy,,https://i.scdn.co/image/ab67616d0000b27333c6f21ab00263515f0b0d6d
 Banana Pancakes,Jack Johnson,,https://i.scdn.co/image/ab67616d0000b27306b42768ebe736eec21336ea
 Basket Case,Green Day,"Rock, 90s",https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d
-Bat Out Ofhell,Meat Loaf,Bangers,https://i.scdn.co/image/ab67616d0000b2734111af27787499f6d8752e9f
+Bat Out Of Hell,Meat Loaf,Bangers,https://i.scdn.co/image/ab67616d0000b2734111af27787499f6d8752e9f
 Be My Escape,Relient K,,https://i.scdn.co/image/ab67616d0000b273572a9d884dc34896085175af
 Be Prepared,Disney (The Lion King),Duet,https://i.scdn.co/image/ab67616d0000b273506648dfeff34bdfe9a8a83f
 Beat It,Michael Jackson,,https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be
 Beautiful Day,U2,,https://i.scdn.co/image/ab67616d0000b273e3f4221446f724b575a9aafb
 Beds are Burning,Midnight Oil,"Aussie, 80s",https://i.scdn.co/image/ab67616d0000b2730dd350beeb5ac73672ad6e80
 Beer,Reel Big Fish,Rock,https://i.scdn.co/image/ab67616d0000b273ef883c94c02915cacc3b5b36
-Beforehe Cheats,Carrie Underwood,"Country, Classic",https://i.scdn.co/image/ab67616d0000b273724bd326692d222c5906b0b0
+Before He Cheats,Carrie Underwood,"Country, Classic",https://i.scdn.co/image/ab67616d0000b273724bd326692d222c5906b0b0
 Best Day of My Life,American Authors,,https://i.scdn.co/image/ab67616d0000b273cc761ba55b0e7abad4539abe
 Best Friend,Queen,,https://i.scdn.co/image/ab67616d0000b273ce4f1737bc8a646c8c4bd25a
-Better Behome Soon,Crowdedhouse,90s,https://i.scdn.co/image/ab67616d0000b2736cdb6a54108ae5653f79b923
-Better Man,Pearl Jam,,https://i.scdn.co/image/ab67616d0000b273f0f6b8bc425633e6ed6369c4
+Better Be Home Soon,Crowdedhouse,90s,https://i.scdn.co/image/ab67616d0000b2736cdb6a54108ae5653f79b923
 Better Together,Jack Johnson,,https://i.scdn.co/image/ab67616d0000b27306b42768ebe736eec21336ea
+Better Man,Pearl Jam,,https://i.scdn.co/image/ab67616d0000b273f0f6b8bc425633e6ed6369c4
+Betty,Taylor Swift,2020s,https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc
 Beyond,Leon Bridges,,https://i.scdn.co/image/ab67616d0000b273a47ee7a49c53ccdcb38dc874
 Beyond the Sea,Bobby Darin,,https://i.scdn.co/image/ab67616d0000b273e774643594281699bde1e4ed
 Big Yellow Taxi,Joni Mitchell,60s,https://i.scdn.co/image/ab67616d0000b2738d0a75346badc30c8b845be9
-Blackhorse and A Cherry Tree,KT Tunstall,,https://i.scdn.co/image/ab67616d0000b273183730e8038fa632b2c227da
+Black Horse and A Cherry Tree,KT Tunstall,,https://i.scdn.co/image/ab67616d0000b273183730e8038fa632b2c227da
 Blackbird,The Beatles,,https://i.scdn.co/image/ab67616d0000b2734ce8b4e42588bf18182a1ad2
 Blank Space,Taylor Swift,,https://i.scdn.co/image/ab67616d0000b273904445d70d04eb24d6bb79ac
 Bloom,The Paper Kites,Aussie,https://i.scdn.co/image/ab67616d0000b27355bd9d9e0f50d28ddc9c1308
@@ -90,7 +96,7 @@ Brass in Pocket,The Pretenders,80s,https://i.scdn.co/image/ab67616d0000b2735e811
 Brothers in Arms,Dire Straits,,https://i.scdn.co/image/ab67616d0000b273fb995d2871f084b34afae3b3
 Brown Eyed Girl,Van Morrison,60s,https://i.scdn.co/image/ab67616d0000b2733f29a976eea00141514ab936
 Brown Eyed Lover,Allen Stone,,https://i.scdn.co/image/ab67616d0000b27358076b915a6a926d1020124b
-Buddyholly,Weezer,90s,https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96
+Buddy Holly,Weezer,90s,https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96
 Build Me Up Buttercup,The Foundations,Soul,https://i.scdn.co/image/ab67616d0000b273c76041077e2a0de9694b9db3
 Burn,Hamilton,Showtunes,https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
 Burn For You,John Farnham,,https://i.scdn.co/image/ab67616d0000b273bc42a3c1798a35d10a72b052
@@ -103,12 +109,12 @@ California Gurls,Katy Perry,"Pop, 2000s",https://i.scdn.co/image/ab67616d0000b27
 Call Me,Blondie,80s,https://i.scdn.co/image/ab67616d0000b27313cbe3e4dfa81fe5b91f2f1c
 Call me Maybe,Carly Rae Jepsen,,https://i.scdn.co/image/ab67616d0000b273a111f7769013f1731e9c697c
 Can You Feel the Love Tonight,Disney (The Lion King),Duet,https://i.scdn.co/image/ab67616d0000b273506648dfeff34bdfe9a8a83f
-Can'thelp Falling In Love,Elvis Presley,,https://i.scdn.co/image/ab67616d0000b273acaf8d921e2a21c30a6451e1
 Can't Stop The Feeling,Justin Timberlake,,https://i.scdn.co/image/ab67616d00001e02d965d29d7dcf46ade5a8a7e4
 Can't Take My Eyes Off You,Frankie Valli and the Four Seasons,,https://i.scdn.co/image/ab67616d0000b273e5af26981a3a99d9994e0768
-Cannedheat,Jamiroquai,,https://i.scdn.co/image/ab67616d0000b2734ccb64f022a53d3e8ec84a20
+Can't Help Falling In Love,Elvis Presley,,https://i.scdn.co/image/ab67616d0000b273acaf8d921e2a21c30a6451e1
+Canned Heat,Jamiroquai,,https://i.scdn.co/image/ab67616d0000b2734ccb64f022a53d3e8ec84a20
 Canticle of the Turning,Christmas,,https://i.scdn.co/image/ab67616d0000b27319a9ba690cee271a17434290
-Castle on thehill,Ed Sheeran,,https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96
+Castle on the Hill,Ed Sheeran,,https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96
 Cecilia,Simon & Garfunkel,,https://i.scdn.co/image/ab67616d0000b273ba7fe7dd76cd4307e57dd75f
 Celebrity Skin,Hole,"Rock, 90s",https://i.scdn.co/image/ab67616d0000b2730649124c37ce988317263671
 Centerfold,J. Geils Band,,https://i.scdn.co/image/ab67616d00001e0238b2429ef948e6ca8d3ab599
@@ -144,16 +150,17 @@ Dancing on My Own,Robyn,Pop,https://i.scdn.co/image/ab67616d0000b273b4375effb233
 Dancing on the Ceiling,Lionel Richie,,https://i.scdn.co/image/ab67616d0000b2732c33399e119cec9b0fcde564
 Dancing Queen,ABBA,70s,https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0
 Dare You To Move,Switchfoot,,https://i.scdn.co/image/ab67616d0000b2730f6618cd5d9efa9b71cfa688
+Dead Flowers,Rolling Stones,60s,https://i.scdn.co/image/ab67616d0000b273a1d9c9969f2a7ed27e449a3c
 Dear Theodosia,Hamilton,"Duet, Showtunes",https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
-Deck thehalls,Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
+Deck the Halls,Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
 Deep Water,Haley Reinhart,,https://i.scdn.co/image/ab67616d0000b2731907562a6462f43ad8345d3c
 Deeper Water,Paul Kelly,Aussie,https://i.scdn.co/image/ab67616d0000b2731a171f3f2becb7cb5a166fc1
 Devil Went Down to Georgia,Charlie Daniels Band,Country,https://i.scdn.co/image/ab67616d0000b27382f846c52535bb65ab1d1a54
 Diamonds on the Soles ofher Shoes,Paul Simon,,https://i.scdn.co/image/ab67616d0000b27309880a7b8636c5a0615dc0c8
 Dirty Old Town,The Pogues,,https://i.scdn.co/image/ab67616d0000b2738dcbee93733dd5393e629653
 Dizzy,Vic Reeves,,https://i.scdn.co/image/ab67616d0000b273c73db73778430c4114701d75
-Do Youhear the People Sing,Les Misérables,Showtunes,https://i.scdn.co/image/ab67616d0000b27390c3b1e71ca963d6f8f6052c
 Do You Love Me,The Contours,,https://i.scdn.co/image/ab67616d0000b273c2097cc645d57a900f8c84e7
+Do You Hear the People Sing,Les Misérables,Showtunes,https://i.scdn.co/image/ab67616d0000b27390c3b1e71ca963d6f8f6052c
 Don't Be Cruel,Elvis Presley,,https://i.scdn.co/image/ab67616d0000b27320ee3e86e17f17239bef1f76
 Don't Dream It's Over,Crowdedhouse,,https://i.scdn.co/image/ab67616d0000b27394663b317230b549227c2172
 Don't Know Why,Norah Jones,"Ballad, 2000s",https://i.scdn.co/image/ab67616d00001e02c648a42b5dad72c8aafceeec
@@ -166,21 +173,23 @@ Don't Start Now,Dua Lipa,Pop,https://i.scdn.co/image/ab67616d0000b27317b4fde054d
 Don't Stop Believing,Journey,Rock,https://i.scdn.co/image/ab67616d00001e02c5653f9038e42efad2f8a266
 Don't Stop Me Now,Queen,,https://i.scdn.co/image/ab67616d00001e02008b06ec71019afd70153889
 Don't Tell Our Friends About Me,Blake Mills,,https://i.scdn.co/image/ab67616d00001e02504f36e65137333a50d166b4
-"Don't Worry, Behappy",Bobby McFerrin,,https://i.scdn.co/image/ab67616d0000b2739b3ab5d2a99c1d7753f2d857
+"Don't Worry, Be Happy",Bobby McFerrin,,https://i.scdn.co/image/ab67616d0000b2739b3ab5d2a99c1d7753f2d857
 Don't You Want Me,Human League,,https://i.scdn.co/image/ab67616d00001e025579d8a505c727349a203074
 Down on the Corner,Creedence Clearwater Revival,,https://i.scdn.co/image/ab67616d0000b2739f39192f9f8ca1c90847b3e5
 Down Under,Men At Work,"Aussie, 80s",https://i.scdn.co/image/ab67616d0000b273aa5e4c9da271951ac0b31fa2
 Dream a Little Dream of Me,Mama Cass,,https://i.scdn.co/image/ab67616d0000b27388cad1831fd30db7f0f1c473
 Dream Lover,Bobby Darin,,https://i.scdn.co/image/ab67616d0000b273862db99c6256291d040fe219
-Dreaming With a Brokenheart,John Mayer,,https://i.scdn.co/image/ab67616d0000b2737af5fdc5ef048a68db62b85f
+Dreaming With a Broken Heart,John Mayer,,https://i.scdn.co/image/ab67616d0000b2737af5fdc5ef048a68db62b85f
 Dreams,The Cranberries,Bangers,https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451
 Dreams,Fleetwood Mac,,https://i.scdn.co/image/ab67616d0000b273e52a59a28efa4773dd2bfe1b
 Driver's License,Olivia Rodrigo,Bangers,https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a
 Electric Indigo,The Paper Kites,Aussie,https://i.scdn.co/image/ab67616d0000b273fac40a5731f33eaa7043b070
+Enter Sandman,Metallica,90s,https://i.scdn.co/image/ab67616d0000b2731f9edf15e43f4c2f4938b869
 Everlong,Foo Fighters,"Rock, Classic",https://i.scdn.co/image/ab67616d0000b2730389027010b78a5e7dce426b
 Every Breath You Take,The Police,80s,https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e
+Every Little Thing She Does is Magic,The Police,80s,https://i.scdn.co/image/ab67616d0000b273b7879980ef2ea7ac1cc29316
 Everybody (Backstreet's Back),Backstreet Boys,,https://i.scdn.co/image/ab67616d0000b273c999354430ff7eac3e0d9bc8
-Everybodyhurts,R.E.M.,,https://i.scdn.co/image/ab67616d0000b273ace3e7aae0b7c78bbe1c4f35
+Everybody Hurts,R.E.M.,,https://i.scdn.co/image/ab67616d0000b273ace3e7aae0b7c78bbe1c4f35
 Everybody Needs Somebody,Blues Brothers,,https://i.scdn.co/image/ab67616d0000b2739a88a61e9fb51cce727b0f52
 Everybody Wants to Rule the World,Tears for Fears,,https://i.scdn.co/image/ab67616d0000b27322463d6939fec9e17b2a6235
 Everything Will Change,Derek Webb,,https://i.scdn.co/image/ab67616d0000b27357a9355c5e537f3de1be8385
@@ -198,7 +207,7 @@ Finesse,Bruno Mars,,https://i.scdn.co/image/ab67616d0000b27347e522adf030a78615cd
 Fire,Jimihendrix,Rock,https://i.scdn.co/image/ab67616d0000b273c9adfbd773852e286faed040
 Fire and Rain,James Taylor,,https://i.scdn.co/image/ab67616d0000b273b3adf9b1706b05af854bbad4
 Firecracker,Bros. Landreth,,https://i.scdn.co/image/ab67616d0000b273e45fec3aef2e77b7ce0898d0
-Fireflies,Owl City,,https://i.scdn.co/image/ab67616d0000b273785d4e702802da500fc78b32
+Fireflies,Owl City,"Pop, 2000s",https://i.scdn.co/image/ab67616d0000b273d25c579ea362aeee960d0d6b
 Firework,Katy Perry,,https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888
 Fix You,Coldplay,,https://i.scdn.co/image/ab67616d0000b2734e0362c225863f6ae2432651
 Flagpole Sitta,Harvey Danger,,https://i.scdn.co/image/ab67616d0000b273868d99be4de6929eeac899ba
@@ -215,17 +224,17 @@ Frail,Jars of Clay,,https://i.scdn.co/image/ab67616d0000b273171efa3f1b08ef91d3ed
 Free Fallin’,Tom Petty,,https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456
 Friday I'm In Love,The Cure,,https://i.scdn.co/image/ab67616d0000b273e410fa31e3dfcc7521cde86d
 From This Valley,The Civil Wars,,https://i.scdn.co/image/ab67616d0000b273f8edb9c47544ab014e59ab54
-Frozenheart,Disney,,https://i.scdn.co/image/ab67616d0000b2734b1899123e484c034e31164e
+Frozen Heart,Disney,,https://i.scdn.co/image/ab67616d0000b2734b1899123e484c034e31164e
 Ghostbusters,Ray Parker Jr,"Halloween, 80s",https://i.scdn.co/image/ab67616d0000b273aed4808eac27b70ba532f0e4
 Gimme Gimme Gimme,ABBA,70s,https://i.scdn.co/image/ab67616d0000b273aa22899360d8ba6704732dec
 Gimme Some Lovin',Spencer Davis Group,,https://i.scdn.co/image/ab67616d0000b273dbe342cb676e4630b72ef182
-Girls Just Wannahave Fun,Cindy Lauper,"Pop, 80s",https://i.scdn.co/image/ab67616d00001e0252f532df7ba3269b0242fed9
 "Give Me Your Fire, Give Me Your Rain",The Paper Kites,Aussie,https://i.scdn.co/image/ab67616d0000b273086e117e8804dcffb54affdb
+Girls Just Wanna Have Fun,Cindy Lauper,"Pop, 80s",https://i.scdn.co/image/ab67616d00001e0252f532df7ba3269b0242fed9
 Go Tell It On the Mountain,Christmas,,https://i.scdn.co/image/ab67616d0000b2738a5ecd30c86e91ad5d09c0ea
 Go Your Own Way,Fleetwood Mac,,https://i.scdn.co/image/ab67616d0000b27357df7ce0eac715cf70e519a7
 God Only Knows,The Beach Boys,,https://i.scdn.co/image/ab67616d0000b273bde8dfd1922129f3d9e3732f
 Good 4 U,Olivia Rodrigo,Bangers,https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a
-Good Ashell,Lizzo,Pop,https://i.scdn.co/image/ab67616d0000b273bf7d271b8f3051af3cf0bf55
+Good As Hell,Lizzo,Pop,https://i.scdn.co/image/ab67616d0000b273bf7d271b8f3051af3cf0bf55
 Good Love Is On The Way,John Mayer,,https://i.scdn.co/image/ab67616d0000b2735b9c332f9f76cabc137e400f
 Good Riddance (Time of Your Life),Green Day,,https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776
 Good Vibrations,The Beach Boys,,https://i.scdn.co/image/ab67616d0000b273fb9dac3244b8486758058a81
@@ -235,18 +244,18 @@ Got To Give It Up,Marvin Gaye,Soul,https://i.scdn.co/image/ab67616d0000b273b7d69
 Gotta Serve Somebody,Bob Dylan,,https://i.scdn.co/image/ab67616d0000b273e969b7bfe58c8fe5019310b1
 Graceland,Paul Simon,,https://i.scdn.co/image/ab67616d0000b27309880a7b8636c5a0615dc0c8
 Gravity,John Mayer,,https://i.scdn.co/image/ab67616d0000b2737af5fdc5ef048a68db62b85f
-Great Balls of Fire,Jerry Lee Lewis,,https://i.scdn.co/image/ab67616d0000b27395788c15edfdca94ad6fa6ab
-Grow As We Go,Ben Platt,,https://i.scdn.co/image/ab67616d0000b273f77cc81c4679525b9f6b4447
+,Jerry Lee Lewis,,https://i.scdn.co/image/ab67616d0000b27395788c15edfdca94ad6fa6ab
+Great Balls of Fire,Ben Platt,,https://i.scdn.co/image/ab67616d0000b273f77cc81c4679525b9f6b4447
 Guns and Ships,Hamilton,Showtunes,https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
 Hakuna Matata,Disney (The Lion King),Duet,https://i.scdn.co/image/ab67616d0000b273506648dfeff34bdfe9a8a83f
 Half of the Way,Ryan Lerman,2000s,https://i.scdn.co/image/ab67616d0000b273a306a5712d0c2ec001f35f38
-Hallelujah I Just Loveher So,Ray Charles,Soul,https://i.scdn.co/image/ab67616d0000b2733f96debd4ff2d990d1e8ea8f
+Hallelujah I Just Love Her So,Ray Charles,Soul,https://i.scdn.co/image/ab67616d0000b2733f96debd4ff2d990d1e8ea8f
 Hammer and Nail,Indigo Girls,90s,https://i.scdn.co/image/ab67616d0000b273a9ac0521e0b38851c51d29c5
 Hand in my Pocket,Alanis Morissette,90s,https://i.scdn.co/image/ab67616d0000b273242e643ea07118ecf677a6ef
 Hands Down,Dashboard Confessional,,https://i.scdn.co/image/ab67616d0000b273d1ac70bdf06763bc8df967e1
 Happy,Pharrell,,https://i.scdn.co/image/ab67616d0000b273e8107e6d9214baa81bb79bba
 Happy Together,The Turtles,,https://i.scdn.co/image/ab67616d0000b27372649ad8e79d1e8bdd54c929
-Hark! Theherald Angels Sing!,Christmas,,https://i.scdn.co/image/ab67616d0000b273997fdaa0f67ab09b29618047
+Hark! The Herald Angels Sing!,Christmas,,https://i.scdn.co/image/ab67616d0000b273997fdaa0f67ab09b29618047
 Harpoon,Jebediah,Aussie,https://i.scdn.co/image/ab67616d0000b273f30db17e0048b1355de6ed49
 Have Yourself a Merry Little Christmas,Christmas,,https://i.scdn.co/image/ab67616d0000b2735567397dee5ed4c9a5bbd7e5
 Heart of Glass,Blondie,80s,https://i.scdn.co/image/ab67616d0000b273ace2bedb8e6cfa04207d5c0f
@@ -254,7 +263,7 @@ Heart of Gold,Neil Young,,https://i.scdn.co/image/ab67616d0000b2730cfaa0bd7b533e
 Heartache Tonight,Eagles,,https://i.scdn.co/image/ab67616d0000b2736f87de026f2c70bae5ef11cc
 Heaven is a Place on Earth,Belinda Carlisle,80s,https://i.scdn.co/image/ab67616d0000b273aaf012d56b8c72658da6c45f
 Hello,Adele,,https://i.scdn.co/image/ab67616d0000b27347ce408fb4926d69da6713c2
-Hellohurricane,Switchfoot,,https://i.scdn.co/image/ab67616d0000b2737bf134795c342204d0d4c731
+Hello Hurricane,Switchfoot,,https://i.scdn.co/image/ab67616d0000b2737bf134795c342204d0d4c731
 Help!,The Beatles,,https://i.scdn.co/image/ab67616d0000b273e3e3b64cea45265469d4cafa
 Helpless,Hamilton,Showtunes,https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
 Her Majesty,The Beatles,,https://i.scdn.co/image/ab67616d0000b273c94603dcb78ec39322cebb5b
@@ -264,14 +273,14 @@ Hey Jude,The Beatles,,https://i.scdn.co/image/ab67616d0000b273582d56ce20fe0146ff
 Hey Lover,Blake Mills,,https://i.scdn.co/image/ab67616d0000b2734db0fc4a04ae57304f41a1b8
 Hey Ya,Outkast,,https://i.scdn.co/image/ab67616d0000b2736a6387ab37f64034cdc7b367
 High of 75,Relient K,,https://i.scdn.co/image/ab67616d0000b273572a9d884dc34896085175af
-Higher andhigher,Otis Redding,Soul,https://i.scdn.co/image/ab67616d0000b273a9ccf78623346eacd99a5cb6
+Higher and Higher,Otis Redding,Soul,https://i.scdn.co/image/ab67616d0000b273a9ccf78623346eacd99a5cb6
 Higher Ground,Stevie Wonder,,https://i.scdn.co/image/ab67616d0000b273ea8ab1a548312b79ac955266
-Highway tohell,AC/DC,"Rock, 80s",https://i.scdn.co/image/ab67616d0000b27351c02a77d09dfcd53c8676d0
+Highway to Hell,AC/DC,"Rock, 80s",https://i.scdn.co/image/ab67616d0000b27351c02a77d09dfcd53c8676d0
 Highway to the Danger Zone,Kenny Loggins,80s,https://i.scdn.co/image/ab67616d00001e0219db9ac54c80a898a179f0f1
 Hold On,Wilson Phillips,"Pop, 90s",https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594
 Holy,Justin Bieber,,https://i.scdn.co/image/ab67616d0000b2730ef18d7aef48552f618b08d9
 Home Again,Michael Kawinuka,,https://i.scdn.co/image/ab67616d00001e02598b2f140fcdaecf31e723e5
-Honeyhoney,ABBA,70s,https://i.scdn.co/image/ab67616d0000b27311c24dc7f5ef909381c0a7d6
+Honey Honey,ABBA,70s,https://i.scdn.co/image/ab67616d0000b27311c24dc7f5ef909381c0a7d6
 Hooked on a Feeling,Blue Suede,,https://i.scdn.co/image/ab67616d00001e02b2439940aedd2801c9ae2e5b
 Hotel California,Eagles,,https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778
 Hound Dog,Elvis Presley,,https://i.scdn.co/image/ab67616d0000b27320ee3e86e17f17239bef1f76
@@ -290,17 +299,19 @@ I Don't Want To Be,Gavin DeGraw,2000s,https://i.scdn.co/image/ab67616d0000b2733f
 I Dreamed A Dream,Les Misérables,Showtunes,https://i.scdn.co/image/ab67616d0000b27329fe427f98a302ae13b39959
 I Got a Woman,Ray Charles,Soul,https://i.scdn.co/image/ab67616d0000b273f0e951707ca49b533fdbf64e
 I Got You (I Feel Good),James Brown,Soul,https://i.scdn.co/image/ab67616d0000b273c813101657895c26f990b719
+I Got You Babe,Sonny & Cher,"Duet,60s",https://i.scdn.co/image/ab67616d0000b2736823f5ab3f87b902c35ef56b
 I Gotta Feeling,Black Eyed Peas,,https://i.scdn.co/image/ab67616d0000b273382514f0114ba8f4a16d5db4
-Ihope That I Don't Fall in Love with You,Tom Waits,,https://i.scdn.co/image/ab67616d0000b2739c853aae7a8aa1db84a52dd8
+I Hope That I Don't Fall in Love with You,Tom Waits,,https://i.scdn.co/image/ab67616d0000b2739c853aae7a8aa1db84a52dd8
 I Just Can't Wait To Be King,Disney (The Lion King),Duet,https://i.scdn.co/image/ab67616d0000b273506648dfeff34bdfe9a8a83f
 I Know A Place,MUNA,,https://i.scdn.co/image/ab67616d0000b273120baf06468dbd74a40582ca
 I Love You Always Forever,Donna Lewis,,https://i.scdn.co/image/ab67616d0000b2733e8c8c3368963eff46c3998a
 I Sawher Standing There,The Beatles,,https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df
 I See Fire,Ed Sheeran,,https://i.scdn.co/image/ab67616d0000b273b8a84dc61f405ad81e26632b
-I Sohate Consequences,Relient K,,https://i.scdn.co/image/ab67616d0000b273572a9d884dc34896085175af
-I Stillhavent Found What Im Looking For,U2,,https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe
+I So Hate Consequences,Relient K,,https://i.scdn.co/image/ab67616d0000b273572a9d884dc34896085175af
+I Still Haven't Found What I'm Looking For,U2,,https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe
 I Wanna Dance With Somebody,Whitneyhouston,"Pop, 80s",https://i.scdn.co/image/ab67616d0000b273cc57e9b00b87dd0f6e868347
-I Wannahold Yourhand,The Beatles,,https://i.scdn.co/image/ab67616d0000b273eeb163ea15484b5efd14a5d4
+I Wanna Get Better,Bleachers,"00s, Jersey",https://i.scdn.co/image/ab67616d0000b2734849278ce9876ebea7353d66
+I Wanna Hold Yourhand,The Beatles,,https://i.scdn.co/image/ab67616d0000b273eeb163ea15484b5efd14a5d4
 I Want It That Way,Backstreet Boys,,https://i.scdn.co/image/ab67616d0000b2732160c02bc56f192df0f4986b
 I Want You Back,Jackson 5,Soul,https://i.scdn.co/image/ab67616d0000b27316aaf05fe82237576a7d0e38
 I Want You to Want Me,Cheap Trick,,https://i.scdn.co/image/ab67616d0000b27357a0bca6d7da93cd0c551f6a
@@ -308,6 +319,7 @@ I Will Always Love You,Dolly Parton,,https://i.scdn.co/image/ab67616d0000b273263
 I Will Come to You,Hanson,,https://i.scdn.co/image/ab67616d0000b273184227f002623fc19f44551a
 I Will Survive,Gloria Gaynor,,https://i.scdn.co/image/ab67616d0000b273a6479db910d22f5aa4546af1
 I Will Wait,Mumford & Sons,,https://i.scdn.co/image/ab67616d0000b2736e2407383e952808a0602b0d
+I Won't Back Down,Tom Petty & The Heartbreakers,80s,https://i.scdn.co/image/ab67616d0000b27336572e6726714544f5bed456
 I Would Die 4 U,Prince,,https://i.scdn.co/image/ab67616d0000b273d52bfb90ee8dfeda8378b99b
 I'll Make a Man Out of you,Disney,90s,https://i.scdn.co/image/ab67616d00001e0288781d268ea3b5a35518eecc
 I'm Getting Ready,Michael Kiwanuka,,https://i.scdn.co/image/ab67616d00001e02598b2f140fcdaecf31e723e5
@@ -316,11 +328,11 @@ I'm Gonna Find Another You,John Mayer,,https://i.scdn.co/image/ab67616d00001e027
 I'm On Fire,Bruce Springsteen,,https://i.scdn.co/image/ab67616d00001e02a7865e686c36a4adda6c9978
 I'm Yours,Jason Mraz,,https://i.scdn.co/image/ab67616d0000b2731cd9927ea83226c8a214bbb6
 Ice Ice Baby,Vanilla Ice,,https://i.scdn.co/image/ab67616d0000b2730d441bd2334134eca6761fc4
-Ice Onher Lashes,Brooke Fraser,,https://i.scdn.co/image/ab67616d0000b273832fec9291df86f9b2310bea
+Ice On Her Lashes,Brooke Fraser,,https://i.scdn.co/image/ab67616d0000b273832fec9291df86f9b2310bea
 If I Ain't Got You,Scary Pockets,,https://i.scdn.co/image/ab67616d0000b27361960a03dec06479a8c9a8c3
 If I Ain't Got You,Alicia Keys,,https://i.scdn.co/image/ab67616d0000b27356ff19308ebeb48e2ba6094b
 If I Could Turn Back Time,Cher,,https://i.scdn.co/image/ab67616d0000b2737a1e0215c41f0ce411623301
-If Ihad a Million Dollars,Barenaked Ladies,,https://i.scdn.co/image/ab67616d0000b273cace8130d6570006b636d582
+If I Had a Million Dollars,Barenaked Ladies,,https://i.scdn.co/image/ab67616d0000b273cace8130d6570006b636d582
 If Love Were A Plane,Brad Paisley,,https://i.scdn.co/image/ab67616d0000b2739df06e6e8206ad4bf66405bf
 If We Were Vampires,Jason Isbell,Country,https://i.scdn.co/image/ab67616d0000b2738aac8a5f5e60ea65ec028392
 If You Go Down,Kelsea Ballerini,"Country, 2020s",https://i.scdn.co/image/ab67616d0000b2737de9d89cc5220c52c731db5c
@@ -355,12 +367,12 @@ Just Give Me A Reason,P!nk,2000s,https://i.scdn.co/image/ab67616d0000b2739d0f0d2
 Just the Two of Us,Bill Withers,Soul,https://i.scdn.co/image/ab67616d0000b273be642c503ef5647ebbc34d88
 Just The Way You Are,Bruno Mars,,https://i.scdn.co/image/ab67616d0000b273f6b55ca93bd33211227b502b
 Keep Fishin,Weezer,,https://i.scdn.co/image/ab67616d0000b273583d37d9a9b85c975d62b7df
-Kickstart Myheart,Motley Crue,"Rock,80s",https://i.scdn.co/image/ab67616d0000b27357338231dc4a85d5aed03186
+Kickstart My Heart,Motley Crue,"Rock,80s",https://i.scdn.co/image/ab67616d0000b27357338231dc4a85d5aed03186
 Kids,MGMT,,https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb
 Killing Me Softly,Roberta Flack,,https://i.scdn.co/image/ab67616d0000b2737ff730d1580c27bc461d0ccf
 King of Wishful Thinking,Go West,,https://i.scdn.co/image/ab67616d0000b2739a4191847d232ac422c74b94
 Kingdom Come,Coldplay,,https://i.scdn.co/image/ab67616d0000b2734e0362c225863f6ae2432651
-Knocking onheaven's Door,Bob Dylan,,https://i.scdn.co/image/ab67616d00001e026c86683d20c72e3874c11c6d
+Knocking on Heaven's Door,Bob Dylan,,https://i.scdn.co/image/ab67616d00001e026c86683d20c72e3874c11c6d
 Kung Fu Fighting,Carl Douglass,,https://i.scdn.co/image/ab67616d0000b273131815c9e03c070a5a953a43
 Landslide,Fleetwood Mac,Country,https://i.scdn.co/image/ab67616d0000b2734fb043195e8d07e72edc7226
 Late Night Talking,Harry Styles,2020s,https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0
@@ -368,6 +380,7 @@ Lay All Your Love On Me,ABBA,70s,https://i.scdn.co/image/ab67616d0000b2734d08fc9
 Layla,Eric Clapton,,https://i.scdn.co/image/ab67616d0000b2734e36eb543ce3731ac913845c
 Lean On Me,Al Green,,https://i.scdn.co/image/ab67616d0000b2733db65203676949a7bb58aa98
 Learn to Fly,Foo Fighters,90s,https://i.scdn.co/image/ab67616d0000b2731759635c92b6314d3d3c9fe9
+Let Her Go,Passenger,00s,https://i.scdn.co/image/ab67616d0000b27342859c496ab80d9867ef21b6
 Let It All Out,Relient K,,https://i.scdn.co/image/ab67616d0000b273572a9d884dc34896085175af
 Let It Be,The Beatles,,https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1
 Let It Go,Disney (Frozen),,https://i.scdn.co/image/ab67616d0000b273764d826c03dcafc61ba5104d
@@ -377,10 +390,10 @@ Let's Get It On,Marvin Gaye,,https://i.scdn.co/image/ab67616d0000b273f8f0a26e410
 Let's Get Married,The Proclaimers,,https://i.scdn.co/image/ab67616d0000b2730b130920fe378018b3f2be0f
 Let's Stay Together,Al Green,,https://i.scdn.co/image/ab67616d0000b273a1fc113a6858d0824d9aaf38
 Levitating,Dua Lipa,Pop,https://i.scdn.co/image/ab67616d0000b273a34d440eb5a9b188c066e09a
-Life is ahighway,Rascall Flats,90s,https://i.scdn.co/image/ab67616d00001e02a73bb6afa8cb999aafb3c150
+Life is a Highway,Rascall Flats,90s,https://i.scdn.co/image/ab67616d00001e02a73bb6afa8cb999aafb3c150
 Life is Better With You,Michael Franti,,https://i.scdn.co/image/ab67616d0000b273a8d5179c5495b1d6ad1d09d6
 Life of a Salesman,Yellowcard,Rock,https://i.scdn.co/image/ab67616d0000b273d1fd8f264564d9eef7617a45
-Life's ahappy Song,The Muppets,,https://i.scdn.co/image/ab67616d0000b27349975a26b5562064db3a552b
+Life's a Happy Song,The Muppets,,https://i.scdn.co/image/ab67616d0000b27349975a26b5562064db3a552b
 Light of a Clear Blue Morning,Dolly Parton,Country,https://i.scdn.co/image/ab67616d0000b27379b5ba7a27e3cbcbb343064c
 Light On,Maggie Rogers,,https://i.scdn.co/image/ab67616d0000b273d658a02ba8931985bdc4e0da
 Like a Circle,Ben Abraham,,https://i.scdn.co/image/ab67616d0000b273753e21db8a6c5fca23c54e96
@@ -391,6 +404,7 @@ Little Wing,Jimihendrix,,https://i.scdn.co/image/ab67616d0000b27319dcd95d28b63d1
 Livin' on a Prayer,Bon Jovi,"Rock, 80s",https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac
 Long Way To The Top,AC/DC,"Rock, Aussie, 70s",https://i.scdn.co/image/ab67616d0000b273286a0837ff3424065a735e0a
 Look At Me Now,Emily King,,https://i.scdn.co/image/ab67616d0000b2739ac9aaa609c1a1af12927f8b
+Looking Out My Backdoor,Creedence Clearwater Revival,60s,https://i.scdn.co/image/ab67616d0000b2736e186edfb8fe3710fdc1f7c2
 Lost In The Woods,Disney (Frozen 2),,https://i.scdn.co/image/ab67616d0000b2733553b7b5db19f9efa4343ab5
 Love Foolosophy,Jamiroquai,,https://i.scdn.co/image/ab67616d0000b273909ebb0c355f14d0ee7f9974
 Love on the Weekend,John Mayer,,https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4
@@ -409,7 +423,9 @@ Make a Move,Lawrence,,https://i.scdn.co/image/ab67616d0000b273b5acc07d64fea2d14a
 Mamma Mia,ABBA,Duet,https://i.scdn.co/image/ab67616d0000b27392d0747a634fcc351c6ac3c2
 Man I Feel Like a Woman,Shania Twain,90s,https://i.scdn.co/image/ab67616d0000b273049c676bbe6d94b46e4d9b6e
 Man in the Mirror,Michael Jackson,,https://i.scdn.co/image/ab67616d0000b2731bb21d27effb96a1d0fe8d6d
+Margaritaville,Jimmy Buffet,70s,https://i.scdn.co/image/ab67616d0000b2734fdb0337978c7464cdfb1783
 Marry You,Bruno Mars,,https://i.scdn.co/image/ab67616d0000b273f6b55ca93bd33211227b502b
+Master of Puppets,Metallica,80s,https://i.scdn.co/image/ab67616d0000b273cad4832cb7b5844343278daa
 Material Girl,Madonna,"Pop, 80s",https://i.scdn.co/image/ab67616d0000b2731fc9fd5d701ee05cb39b7b19
 Me and Julio Down by the Schoolyard,Paul Simon,Bangers,https://i.scdn.co/image/ab67616d0000b27337a40ab12a4fb96319a9d96f
 Me Neither,Brad Paisley,,https://i.scdn.co/image/ab67616d0000b273f8be6a6e73ff1219404c7a27
@@ -429,9 +445,9 @@ Moves Like Jagger,Maroon 5,,https://i.scdn.co/image/ab67616d0000b273ce70cb2d7063
 Mr Brightside,The Killers,Classic,https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d
 Mr Sandman,The Chordettes,50s,https://i.scdn.co/image/ab67616d0000b2734dafc693fd369457726d5c4e
 Much Afraid,Jars of Clay,,https://i.scdn.co/image/ab67616d0000b273171efa3f1b08ef91d3ed4b9d
-Myhappiness,Powderfinger,Aussie,https://i.scdn.co/image/ab67616d0000b273ceba92eb0f296101eca62342
-Myheart Will Go On,Celine Dion,"Ballad, 90s",https://i.scdn.co/image/ab67616d0000b273745adc3f697ea1ec79d66901
-Myhero,Foo Fighters,"Rock, 90s",https://i.scdn.co/image/ab67616d0000b2730389027010b78a5e7dce426b
+My Happiness,Powderfinger,Aussie,https://i.scdn.co/image/ab67616d0000b273ceba92eb0f296101eca62342
+My Heart Will Go On,Celine Dion,"Ballad, 90s",https://i.scdn.co/image/ab67616d0000b273745adc3f697ea1ec79d66901
+My Hero,Foo Fighters,"Rock, 90s",https://i.scdn.co/image/ab67616d0000b2730389027010b78a5e7dce426b
 Nashville,David Mead,,https://i.scdn.co/image/ab67616d0000b2735c4c3c13715dc15a06bf7a6f
 Never Gonna Be Alone,"Lizzy McApine, Jacob Collier",2020s,https://i.scdn.co/image/ab67616d0000b273ed71065e4c4996f00ee097e1
 Never On The Day You Leave,John Mayer,,https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4
@@ -448,14 +464,15 @@ Nowhere Man,The Beatles,,https://i.scdn.co/image/ab67616d0000b273ed801e58a9ababd
 Nowhere to Run,Martha and the Vandellas,,https://i.scdn.co/image/ab67616d0000b273fc466e0c9ac165ac85ddbedf
 Numb,Linkin Park,2000s,https://i.scdn.co/image/ab67616d0000b273a6125b1964a555892c49ea53
 "O Come, All Ye Faithful",Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
-Oholy Night,Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
+O Holy Night,Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
 Ocean Avenue,Yellowcard,Rock,https://i.scdn.co/image/ab67616d0000b273d1fd8f264564d9eef7617a45
 Odds,MuteMath,,https://i.scdn.co/image/ab67616d0000b27321be86a7b1568066971effe1
 Oh What A Night,Frankie Valli and the Four Seasons,,https://i.scdn.co/image/ab67616d0000b273206e2e76c3a706e4734d18ab
 Old Time Rock'n'Roll,Bob Seger,,https://i.scdn.co/image/ab67616d0000b273de13fd8d22d886e0b355c1ad
 On My Own,Les Misérables,Showtunes,https://i.scdn.co/image/ab67616d0000b27390c3b1e71ca963d6f8f6052c
+One,Metallica,80s,https://i.scdn.co/image/ab67616d0000b273be54746b374358970b5e617a
 One Four Five,The Cat Empire,Aussie,https://i.scdn.co/image/ab67616d0000b27353f8172e38162a452d6cdaee
-Oneheadlight,The Wallflowers,,https://i.scdn.co/image/ab67616d0000b273e542fbcf1a83b7c726eb50a6
+One Headlight,The Wallflowers,,https://i.scdn.co/image/ab67616d0000b273e542fbcf1a83b7c726eb50a6
 One Way Or Another,Blondie,80s,https://i.scdn.co/image/ab67616d0000b273ace2bedb8e6cfa04207d5c0f
 Only One,Yellowcard,Rock,https://i.scdn.co/image/ab67616d0000b273d1fd8f264564d9eef7617a45
 Only Us,Dear Evanhansen,"Duet, Showtunes",https://i.scdn.co/image/ab67616d0000b273eefa3ed06dec22db89d0e793
@@ -473,6 +490,7 @@ Piano Man,Billy Joel,,https://i.scdn.co/image/ab67616d0000b273aff4aef671b2510be7
 Pirates Who Don't Do Anything,Relient K,,https://i.scdn.co/image/ab67616d0000b2735a78aa62ad8768abb3321c01
 Play That Funky Music,Wild Cherry,,https://i.scdn.co/image/ab67616d0000b273d419ed4f1e89669ce14bd369
 Pour Some Sugar On Me,Def Leppard,,https://i.scdn.co/image/ab67616d0000b273222cb38afc3b3b47d9df26aa
+Power of Love,Huey Lewis and the News,80s,https://i.scdn.co/image/ab67616d0000b2735306ed42ae78f317258c51bb
 Pretty Brown Eyes,Mint Condition,,https://i.scdn.co/image/ab67616d0000b273822962dc018ffc3f553b6d6e
 Pride In The Name Of Love,U2,,https://i.scdn.co/image/ab67616d0000b273f3a97984c9fb5074f87e938d
 Prisoner of Society,The Living End,"Aussie, 90s",https://i.scdn.co/image/ab67616d0000b273f2f1e08425e5d408144700cb
@@ -496,7 +514,7 @@ Ride,Twenty One Pilots,,https://i.scdn.co/image/ab67616d0000b273de03bfc2991fd5bc
 Right On Time,Dawes,,https://i.scdn.co/image/ab67616d0000b2734ca2ff72d8628832418d69af
 Ring of Fire,Johnny Cash,Country,https://i.scdn.co/image/ab67616d0000b273dfe4bfe695c4192e547e72c7
 River,Leon Bridges,Soul,https://i.scdn.co/image/ab67616d0000b273a8df0c930a741d6f49cc3f8d
-River Deep Mountainhigh,Ike & Tina Turner,60s,https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647
+River Deep Mountain High,Ike & Tina Turner,60s,https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647
 Rock and Roll,Led Zeppelin,,https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69
 Rock and Roll Music,The Beatles,,https://i.scdn.co/image/ab67616d0000b27355612ece447bec5d62c68375
 Rock Around the Clock,Billhaley and the Comets,,https://i.scdn.co/image/ab67616d0000b2739060a2c0a01366ee03274597
@@ -507,14 +525,14 @@ Rockin Robin,Bobby Day,"50s, 70s",https://i.scdn.co/image/ab67616d0000b273635d01
 Rockin the Suburbs,Ben Folds,"Rock, 2000s",https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e
 Rocking Around the Christmas Tree,Christmas,,https://i.scdn.co/image/ab67616d0000b273b5111f121761e4db3cc696cc
 Rocky Raccoon,The Beatles,,https://i.scdn.co/image/ab67616d0000b2734ce8b4e42588bf18182a1ad2
-Roll It Onhome,John Mayer,,https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4
+Roll It On Home,John Mayer,,https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4
 Roll On,The Living End,"Aussie, 90s",https://i.scdn.co/image/ab67616d0000b273c573a4a852f010523c4ba383
 Rolling in the Deep,Adele,,https://i.scdn.co/image/ab67616d0000b2732118bf9b198b05a95ded6300
 Romeo + Juliet,Dire Straits,,https://i.scdn.co/image/ab67616d0000b2735b5e5240a4c483b5fb9f2cb0
 Rosanna,Toto,80s,https://i.scdn.co/image/ab67616d0000b2734a052b99c042dc15f933145b
 Rosie,John Mayer,,https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4
 Royals,Lorde,,https://i.scdn.co/image/ab67616d0000b273187331e276c898d39764cc98
-Sadiehawkins Dance,Relient K,,https://i.scdn.co/image/ab67616d0000b273102c170920f16db53016b5c2
+Sadie Hawkins Dance,Relient K,,https://i.scdn.co/image/ab67616d0000b273102c170920f16db53016b5c2
 Santa Claus is Coming To Town,Christmas,,https://i.scdn.co/image/ab67616d0000b27383342742d90153d792264668
 Satisfied,Hamilton,,https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
 Say,John Mayer,,https://i.scdn.co/image/ab67616d0000b2731e3dbe4453ed61633c472fbe
@@ -549,6 +567,7 @@ Sigh No More,Mumford & Sons,,https://i.scdn.co/image/ab67616d0000b2735fcd9dbdaa1
 "Signed, Sealed, Delivered (I'm Yours)",Stevie Wonder,Soul,https://i.scdn.co/image/ab67616d0000b273c5e9e847ca9c0982b4c91d4b
 Silent Night,Christmas,,https://i.scdn.co/image/ab67616d0000b273a640be34ee9f2a864396bc20
 Silk Chiffon,MUNA,Pop,https://i.scdn.co/image/ab67616d0000b273bb5a3de97d548a649cfafe67
+Silver Bells,Dean Martin,Christmas,https://i.scdn.co/image/ab67616d0000b273c7a9f0ea9b8bec1861217321
 Simply the Best,Tina Turner,,https://i.scdn.co/image/ab67616d0000b27336981bd20b6509e678f3767d
 Since U Been Gone,Kelly Clarkson,"Pop, Banger",https://i.scdn.co/image/ab67616d0000b27303dadde4d9d305c1c3e0d91c
 Sittin' on the Dock of Bay,Otis Redding,Soul,https://i.scdn.co/image/ab67616d0000b2730acddc8ccf8d14858fbeddf5
@@ -562,7 +581,7 @@ Somebody That I Used To Know,Gotye,"Aussie, Duet",https://i.scdn.co/image/ab6761
 Somebody to Love,Queen,Banger,https://i.scdn.co/image/ab67616d0000b27395313a5eee00d9bdf37883e2
 Someone New,Paul Kelly,Aussie,https://i.scdn.co/image/ab67616d0000b273fa5c35abff3405c743befb89
 Something,The Beatles,,https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25
-Somethinghappened on the Way Toheaven,Phil Collins,,https://i.scdn.co/image/ab67616d0000b273fb2daafa0993f39d87a84385
+Something Happened on the Way To Heaven,Phil Collins,,https://i.scdn.co/image/ab67616d0000b273fb2daafa0993f39d87a84385
 Something Like Olivia,John Mayer,,https://i.scdn.co/image/ab67616d0000b2733c6bbf44de57c6eb51818694
 Something Stupid,Frank Sinatra,"Duet, 60s",https://i.scdn.co/image/ab67616d00001e023e2331ff09f59ea3c87fe5d6
 Somewhere Over the Rainbow & Wonderful World,Israel Kamakawiwo'ole,,https://i.scdn.co/image/ab67616d0000b273d358679de4783983510aa57d
@@ -575,7 +594,7 @@ Spaceman,The Killers,,https://i.scdn.co/image/ab67616d0000b273a43cd43ef4f3b2d541
 Sparks Fly,Taylor Swift,,https://i.scdn.co/image/ab67616d0000b2730b04da4f224b51ff86e0a481
 Spoonful of Sugar,Disney (Mary Poppins),,https://i.scdn.co/image/ab67616d0000b273011882ee0968911b2c9782ed
 Stacy's Mom,Fountains of Wayne,Classic,https://i.scdn.co/image/ab67616d0000b273079e826265dffc3a8a26bac5
-Stairway toheaven,Led Zeppelin,,https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69
+Stairway to Heaven,Led Zeppelin,,https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69
 Stand By Me,Ben E. King,,https://i.scdn.co/image/ab67616d0000b2731813ea8f590a0aab2820f922
 Starships,Nicki Minaj,"Pop, 2010s",https://i.scdn.co/image/ab67616d0000b27385235715597dcd07bb9e0f84
 Stay (I Missed You),Lisa Loeb,90s,https://i.scdn.co/image/ab67616d0000b273ae5d490ee490c3ee46f65ec0
@@ -585,10 +604,13 @@ Stickshifts and Safetybelts,Cake,90s,https://i.scdn.co/image/ab67616d0000b273e73
 Still Feel Like Your Man,John Mayer,,https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4
 Still Into You,Paramore,"Rock, 2000s",https://i.scdn.co/image/ab67616d0000b273532033d0d90736f661c13d35
 Stop This Train,John Mayer,,https://i.scdn.co/image/ab67616d0000b2737af5fdc5ef048a68db62b85f
+Stop! The Love You Save,The Jackson 5,Soul,https://i.scdn.co/image/ab67616d0000b2739df68560791d0b3dab491867
 Straight Lines,silverchair,Aussie / Bangers,https://i.scdn.co/image/ab67616d0000b273f7cbf02cc5d111e494784ee2
 Strawberry Fields Forever,The Beatles,,https://i.scdn.co/image/ab67616d0000b273692d9189b2bd75525893f0c1
 Strawberry Wine,Deana Carter,,https://i.scdn.co/image/ab67616d0000b2738805523bca720bfd0dfd3e77
+Strong Enough,Sheryl Crow,90s,https://i.scdn.co/image/ab67616d0000b273b478a8ce3aac61a3675aac2a
 Stuck In the Middle with You,Stealers Wheel,,https://i.scdn.co/image/ab67616d0000b273a5ce236c22035a02cf87d4de
+Style,Taylor Swift,2010s,https://i.scdn.co/image/ab67616d0000b273904445d70d04eb24d6bb79ac
 "Sugar, Sugar",The Archies,,https://i.scdn.co/image/ab67616d0000b273fbc98da6995bb0a504ed363d
 Sultans of Swing,Dire Straits,,https://i.scdn.co/image/ab67616d0000b273c5a897378c8caf5cd11935a6
 Summer Breeze,Seals and Crofts,,https://i.scdn.co/image/ab67616d0000b273e13b56ae3e9e99abf2c2026c
@@ -604,21 +626,23 @@ Sweet Creature,Harry Styles,,https://i.scdn.co/image/ab67616d0000b2736c619c39c85
 Sweet Dreams/Seven Nation Army Mashup,Pomplamoose,,https://i.scdn.co/image/ab67616d0000b2733de532ddb4d94e36f951c96d
 Table for Two,Caedmon's Call,,https://i.scdn.co/image/ab67616d0000b273db69e5908e9beba15e66f146
 Take a Chance on Me,ABBA,70s,https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c
+Take Me Home (Country Roads),John Denver,Country,https://i.scdn.co/image/ab67616d0000b27334fb2b0117a542d515dc78d6
 Take Me Out,Franz Ferdinand,"2000s, Onehit Wonder",https://i.scdn.co/image/ab67616d0000b273e8dd4db47e7177c63b0b7d53
 Take me to the River,Al Green,Soul,https://i.scdn.co/image/ab67616d0000b273bea5c345ec616678c372ac2f
 Take On Me,a-ha,"80s, Onehit Wonder",https://i.scdn.co/image/ab67616d0000b2735140e9c2486249b280cb36fb
+Teach Your Children,"Crosby, Stills, Nash & Young",70s,https://i.scdn.co/image/ab67616d0000b27306e00756085191abc01e4cf0
 Teenage Dirtbag,Wheatus,,https://i.scdn.co/image/ab67616d0000b2730a3740efa638f10f14fabc46
 "Thank U, Next",Ariana Grande,Pop,https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8
 Thank You For the Music,ABBA,70s,https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c
 That Don't Impress Me Much,Shania Twain,"90s, Country",https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796
 That's Where I Am,Maggie Rogers,,https://i.scdn.co/image/ab67616d0000b2730fdfb62956211c999c39a5a3
 The Boy in the Bubble,Paul Simon,,https://i.scdn.co/image/ab67616d0000b27309880a7b8636c5a0615dc0c8
+The Boys Are Back in Town,Thin Lizzy,70s,https://i.scdn.co/image/ab67616d0000b273e8f69ab903901064b1f19249
 The Cave,Mumford & Sons,,https://i.scdn.co/image/ab67616d0000b2735fcd9dbdaa1670fb49c66313
 The Distance,Cake,90s,https://i.scdn.co/image/ab67616d0000b27300df6727e2cfe905baa75c1e
 The Ghost of Tom Joad,Bruce Springsteen,,https://i.scdn.co/image/ab67616d0000b273940e995c40e23e9fca1d167e
-Theheartburn Song,Lawrence,,https://i.scdn.co/image/ab67616d0000b273b5acc07d64fea2d14a5cf8c7
+The Heartburn Song,Lawrence,,https://i.scdn.co/image/ab67616d0000b273b5acc07d64fea2d14a5cf8c7
 The Lion Sleeps Tonight,Billy Eichner,,https://i.scdn.co/image/ab67616d0000b2736eb04fff9fd19fd8f65b86e1
-The Love You Save,Jackson 5,Soul,https://i.scdn.co/image/ab67616d0000b2739df68560791d0b3dab491867
 The Middle,Jimmy Eat World,Rock,https://i.scdn.co/image/ab67616d0000b27395d1d98c5176e4f982bd73d6
 The Most Beautiful Girl in the World,Prince,,https://i.scdn.co/image/ab67616d0000b2736a4175046856b90a9b5d67a1
 The Next Right Thing,Disney (Frozen 2),,https://i.scdn.co/image/ab67616d0000b2733b4a52c865611a7dccf870f7
@@ -635,8 +659,9 @@ The Weather,Lawrence,,https://i.scdn.co/image/ab67616d0000b273016ed8b2ec83ef57cf
 The Wire,HAIM,,https://i.scdn.co/image/ab67616d0000b2732fa478d357cac0fd0407643f
 These Boots Are Made For Walkin',Nancy Sinatra,60s,https://i.scdn.co/image/ab67616d0000b273adb57932715c7824dc4df04e
 These Days,Powderfinger,Aussie,https://i.scdn.co/image/ab67616d0000b273ceba92eb0f296101eca62342
-Thingshappen,Dawes,,https://i.scdn.co/image/ab67616d0000b2734ca2ff72d8628832418d69af
+Things Happen,Dawes,,https://i.scdn.co/image/ab67616d0000b2734ca2ff72d8628832418d69af
 Thinking Out Loud,Ed Sheeran,,https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd
+This Christmas,Donny Hathaway,Christmas; 70s,https://i.scdn.co/image/ab67616d0000b2731449e58d25586e59b0f82c19
 This is Me,The Greatest Showman,"Group, Showtunes",https://i.scdn.co/image/ab67616d0000b273007d557d26158875f0e6d32f
 This Is On Me,Ben Abraham,Aussie,https://i.scdn.co/image/ab67616d0000b2736c359f4afcb63c50ff15a889
 This Kiss,Faithhill,"Country, 90s",https://i.scdn.co/image/ab67616d0000b27315069968c52552cc2f222391
@@ -646,22 +671,24 @@ This Too Shall Be Made Right,Derek Webb,,https://i.scdn.co/image/ab67616d0000b27
 This Year,Mountain Goats,2000s,https://i.scdn.co/image/ab67616d0000b27303ba51e9a44665b2ff3d37c7
 Three Little Birds,Bob Marley,,https://i.scdn.co/image/ab67616d0000b273811bfdc4f55b3a7484524aaf
 Thriller,Michael Jackson,Halloween,https://i.scdn.co/image/ab67616d0000b2734121faee8df82c526cbab2be
+Thunderstruck,AC/DC,"90s, Aussie",https://i.scdn.co/image/ab67616d0000b2738399047ff71200928f5b6508
 Time of My Life (from Dirty Dancing),Bill Medley and Jennifer Warnes,Duet,https://i.scdn.co/image/ab67616d0000b273927530e44371f0bc1bb296d4
 Time Served,Joey Landreth,,https://i.scdn.co/image/ab67616d0000b273afa359901dbcf412c5ad9d01
 Time Warp,The Rockyhorror Picture Show,"Showtunes, 80s,halloween",https://i.scdn.co/image/ab67616d0000b2736f4a626d8494d87372b18dd2
 Times Like These,Foo Fighters,,https://i.scdn.co/image/ab67616d0000b273b00ee453b3496535eaa6e4b3
 Tiny Dancer,Elton John,Banger,https://i.scdn.co/image/ab67616d0000b273d03ab2da904d8251a87bbc31
 To Be With You,Mr Big,90s,https://i.scdn.co/image/ab67616d0000b2733772435cf1da78168bc1feae
-Toher Door,Paul Kelly,Aussie,https://i.scdn.co/image/ab67616d0000b273fa242932fea6220f16733e63
+To Her Door,Paul Kelly,Aussie,https://i.scdn.co/image/ab67616d0000b273fa242932fea6220f16733e63
 Together,Tom Tuena,Aussie,https://i.scdn.co/image/ab67616d0000b273a21bfefd9b9ce376256f6307
 Tomorrow,silverchair,Aussie,https://i.scdn.co/image/ab67616d0000b27372c3447a562fc7be1c8e1255
 Tonight You Belong to Me,Patience and Prudence,,https://i.scdn.co/image/ab67616d0000b2735f71ec43b302d6fad5688f1b
 Too Late,The Paper Kites,Aussie,https://i.scdn.co/image/ab67616d0000b273fac40a5731f33eaa7043b070
 Torn,Natalie Imbruglia,"90s, Aussie",https://i.scdn.co/image/ab67616d0000b273aaf012d56b8c72658da6c45f
-Total Eclipse of theheart,Bonnie Tyler,,https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96
+Total Eclipse of the Heart,Bonnie Tyler,,https://i.scdn.co/image/ab67616d0000b2738cefe8e2f2cfd63ce073fa96
 Toxic,Britney Spears,,https://i.scdn.co/image/ab67616d0000b273efc6988972cb04105f002cd4
-Treather Right,George Thorogood,,https://i.scdn.co/image/ab67616d0000b27369def8bf9e3ee1526f46b19c
-Truthhurts,Lizzo,"Pop, Banger",https://i.scdn.co/image/ab67616d0000b2737bebcd2260ef90d7cb7ec0fb
+Treat Her Right,George Thorogood,,https://i.scdn.co/image/ab67616d0000b27369def8bf9e3ee1526f46b19c
+Tribute,Tenacious D,00s,https://i.scdn.co/image/ab67616d0000b273ee0285c63a334af9b91fa12b
+Truth Hurts,Lizzo,"Pop, Banger",https://i.scdn.co/image/ab67616d0000b2737bebcd2260ef90d7cb7ec0fb
 Try A Little Tenderness,Otis Redding,Soul,https://i.scdn.co/image/ab67616d0000b273ffffe932598090498459b77c
 Twenty-Four,Switchfoot,,https://i.scdn.co/image/ab67616d0000b27343882fdb47a06d880f61efdc
 Twist and Shout,The Beatles,,https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df
@@ -670,6 +697,7 @@ Two Princes,Spin Doctors,90s,https://i.scdn.co/image/ab67616d0000b273436e38032cf
 Unaware,Allen Stone,,https://i.scdn.co/image/ab67616d0000b2730ccb24c34e7e628f062f4b61
 Under the Sea,Disney,Showtunes,https://i.scdn.co/image/ab67616d0000b27370085ce3dcd10a4fd8f9ee75
 Undone (The Sweater Song),Weezer,90s,https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96
+Until I Found You,Stephen Sanchez,2020s,https://i.scdn.co/image/ab67616d0000b2732bf0876d42b90a8852ad6244
 Up on the Roof,Justin Timberlake,,https://i.scdn.co/image/ab67616d0000b2739f654f519c62925c9303c445
 Uptown Funk,Mark Ronson / Bruno Mars,Pop,https://i.scdn.co/image/ab67616d0000b273f550279ca0c3c2fd02f90cae
 Uptown Girl,Billy Joel,80s,https://i.scdn.co/image/ab67616d0000b273abd613e1f4e193ccc603210f
@@ -683,6 +711,7 @@ Waiting on the World to Change,John Mayer,,https://i.scdn.co/image/ab67616d0000b
 Wake Me Up Before You Go-Go,Wham!,80s,https://i.scdn.co/image/ab67616d0000b273a2fc41b0dd6ce4f0d16a4c46
 Walk Like an Egyptian,The Bangles,80s,https://i.scdn.co/image/ab67616d0000b2734aaad3bb593721bcaa6827d6
 Walkin' After Midnight,Patsy Cline,Country,https://i.scdn.co/image/ab67616d0000b27397f9dd1653b9dbd23acc5cb1
+Walking in Memphis,Mark Cohn,,https://i.scdn.co/image/ab67616d0000b273fef22fd8fc8a75322f0050da
 Walking on Broken Glass,Annie Lennox,80s,https://i.scdn.co/image/ab67616d0000b273c5a897378c8caf5cd11935a6
 Walking on Sunshine,Katrina and the Waves,80s,https://i.scdn.co/image/ab67616d0000b273eafaf556eda644a745d0144d
 Walt Grace's Submarine Test,John Mayer,,https://i.scdn.co/image/ab67616d0000b2733c6bbf44de57c6eb51818694
@@ -716,20 +745,20 @@ When I Come Around,Green Day,"Rock, 90s",https://i.scdn.co/image/ab67616d0000b27
 When Will My Life Begin?,Disney (Tangled),2000s,https://i.scdn.co/image/ab67616d0000b27319055a83e606ff5ea0fa476e
 Where The Streetshave No Name,U2,,https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe
 Where You're At,Allen Stone,,https://i.scdn.co/image/ab67616d0000b273d57ac73c10168c3082d6160e
-Wherever Is Yourheart I Callhome,Brandi Carlile,Country,https://i.scdn.co/image/ab67616d00001e026ae87ba9541e21c4e5a5926d
+Wherever Is Your Heart I Call Home,Brandi Carlile,Country,https://i.scdn.co/image/ab67616d00001e026ae87ba9541e21c4e5a5926d
 Whiskey Lullaby,Brad Paisley,Country,https://i.scdn.co/image/ab67616d0000b2736217585c07b7417999f03d92
 White Man's World,Jason Isbell,Country,https://i.scdn.co/image/ab67616d0000b2738aac8a5f5e60ea65ec028392
 Who Are We Fooling?,Brooke Fraser,,https://i.scdn.co/image/ab67616d0000b273832fec9291df86f9b2310bea
 Who Will Save Your Soul?,Jewel,90s,https://i.scdn.co/image/ab67616d0000b273c9b83d0f8a38ab1a0fd85d20
-Whose Bedhave Your Boots Been Under,Shania Twain,90s,https://i.scdn.co/image/ab67616d0000b273e47667214dddedc5095afc11
+Whose Bed Have Your Boots Been Under,Shania Twain,90s,https://i.scdn.co/image/ab67616d0000b273e47667214dddedc5095afc11
 Why Am I Like This?,Orla Gartland,,https://i.scdn.co/image/ab67616d0000b27327162270a1dfeb1b73f6c6b1
-Why Did Ithave to be Me,ABBA,70s,https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0
+Why Did It Have to be Me,ABBA,70s,https://i.scdn.co/image/ab67616d0000b27370f7a1b35d5165c85b95a0e0
 Wild World,Cat Stevens,,https://i.scdn.co/image/ab67616d0000b273e7248738c2f7ce3b5584b15d
 Wildfire,John Mayer,,https://i.scdn.co/image/ab67616d0000b2738e3ab1cbd76d15dc64450a13
 Wildflowers,Tom Petty; The Wailin' Jennys,"90s, 2010s",https://i.scdn.co/image/ab67616d0000b273fb2e910ed2c2b18cdf38850b
 Winter Wonderland,Christmas,,https://i.scdn.co/image/ab67616d0000b273a4d50475b17f8aab05507772
 Wintersong,Blake Mills,,https://i.scdn.co/image/ab67616d0000b2734db0fc4a04ae57304f41a1b8
-With a Littlehelp From My Friends,The Beatles,,https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a
+With a Little Help From My Friends,The Beatles,,https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a
 With or Without You,U2,,https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe
 "With You, Without you",Brad Paisley,Country,https://i.scdn.co/image/ab67616d0000b2739df06e6e8206ad4bf66405bf
 Wonderful World,Sam Cooke,60s,https://i.scdn.co/image/ab67616d0000b27309880a7b8636c5a0615dc0c8
@@ -742,11 +771,11 @@ You Are My Sunshine,Johnny Cash,,https://i.scdn.co/image/ab67616d0000b273b905a2b
 You Belong With Me,Taylor Swift,"Country, Pop, Classic",https://i.scdn.co/image/ab67616d0000b273a48964b5d9a3d6968ae3e0de
 You Can Call Me Al,Paul Simon,80s,https://i.scdn.co/image/ab67616d0000b2736cdb6a54108ae5653f79b923
 You Can Close Your Eyes,James Taylor,,https://i.scdn.co/image/ab67616d0000b2731dcc2476bfef39515e3b473a
-You Can Leave Yourhat On,Joe Cocker,,https://i.scdn.co/image/ab67616d0000b2733f717e644cddcd7bc55c9885
-You Can Neverhold Back Spring,Tom Waits,,https://i.scdn.co/image/ab67616d0000b27359237cc9e74983afdbdde78e
-You Can'thurry Love,The Supremes,Soul,https://i.scdn.co/image/ab67616d0000b273a16ea5e673cc4c6e8f91d5ca
+You Can Leave Your Hat On,Joe Cocker,,https://i.scdn.co/image/ab67616d0000b2733f717e644cddcd7bc55c9885
+You Can Never Hold Back Spring,Tom Waits,,https://i.scdn.co/image/ab67616d0000b27359237cc9e74983afdbdde78e
+You Can't Hurry Love,The Supremes,Soul,https://i.scdn.co/image/ab67616d0000b273a16ea5e673cc4c6e8f91d5ca
 You Gotta Be,Des'ree,,https://i.scdn.co/image/ab67616d00001e02b377dfe19197193c621ed7aa
-You Keep Mehanging On,Vanilla Fudge,,https://i.scdn.co/image/ab67616d0000b273bed31a996247292940f122a3
+You Keep Me Hanging On,Vanilla Fudge,,https://i.scdn.co/image/ab67616d0000b273bed31a996247292940f122a3
 You Learn,Alanis Morissette,"Pop, 90s",https://i.scdn.co/image/ab67616d0000b273242e643ea07118ecf677a6ef
 You Make My Dreams,Hall & Oates,,https://i.scdn.co/image/ab67616d0000b273fe1a9aa59e3c6189a09ae37a
 You Oughta Know,Alanis Morissette,"Pop, 90s",https://i.scdn.co/image/ab67616d0000b273242e643ea07118ecf677a6ef
@@ -757,6 +786,7 @@ You'll Be Back,Hamilton,Showtunes,https://i.scdn.co/image/ab67616d0000b273d72fb5
 You're Still The One,Shania Twain,"Country, 90s",https://i.scdn.co/image/ab67616d00001e02aaf012d56b8c72658da6c45f
 You're The One That I Want,John Travolta,Showtunes,https://i.scdn.co/image/ab67616d00001e02b68df485f3304211904548a8
 You're Welcome,Moana,,https://i.scdn.co/image/ab67616d00001e023505183cc0e24d2f7560174a
-You've Got Tohide Your Love Away,The Beatles,,https://i.scdn.co/image/ab67616d00001e02e3e3b64cea45265469d4cafa
+You've Got To Hide Your Love Away,The Beatles,,https://i.scdn.co/image/ab67616d00001e02e3e3b64cea45265469d4cafa
+You've Lost That Lovin' Feeling,The Righteous Brothers,,https://i.scdn.co/image/ab67616d0000b273b48967029aa8ece08e9afa9a
 Your Cheatin’heart,Hank Williams,Country,https://i.scdn.co/image/ab67616d0000b273058ec9749ace1aa96ab57829
 Zombie,The Cranberries,90s,https://i.scdn.co/image/ab67616d0000b273f9b3ece3271d3a5fa73d3759
