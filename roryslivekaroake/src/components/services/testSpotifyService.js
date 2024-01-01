@@ -1,37 +1,3 @@
-// const { getAccessToken, searchTrack } = require('./spotifyService');
-
-// const testGetAccessToken = async () => {
-//   try {
-//     const accessToken = await getAccessToken();
-//     if (accessToken) {
-//       console.log('Access Token:', accessToken);
-//     } else {
-//       console.log('Failed to retrieve access token.');
-//     }
-//   } catch (error) {
-//     console.error('Error in testGetAccessToken:', error);
-//   }
-// };
-
-// const testSearchTrack = async (accessToken) => {
-//   const trackName = 'Shape of You'; // Replace with the track you want to search
-//   const artistName = 'Ed Sheeran'; // Replace with the artist of the track
-  
-//   try {
-//     const trackData = await searchTrack(trackName, artistName, accessToken);
-//     if (trackData) {
-//       console.log('Track Data:', trackData);
-//     } else {
-//       console.log('No track data found.');
-//     }
-//   } catch (error) {
-//     console.error('Error in testSearchTrack:', error);
-//   }
-// };
-
-
-// testGetAccessToken();
-// testSearchTrack();
 
 const { getAccessToken, searchTrack } = require('./spotifyService');
 
