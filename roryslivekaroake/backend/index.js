@@ -13,7 +13,7 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Your existing function to get the access token
+// existing function to get the access token
 const getAccessToken = async () => {
   const tokenUrl = 'https://accounts.spotify.com/api/token';
   const clientId = process.env.SPOTIFY_CLIENT_ID;
