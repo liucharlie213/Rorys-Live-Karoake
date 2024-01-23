@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
 import "./search.css"
+import clearIcon from "../../assets/icons/clear.png";
 
 
 const Search = () => {
@@ -9,6 +10,7 @@ const Search = () => {
   const [sortOrder, setSortOrder] = useState("");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState("None");
+  const resultsRef= useRef(null)
 
   useEffect(() => {
     Papa.parse("/Karaoke2023.csv", {
@@ -18,10 +20,17 @@ const Search = () => {
         setData(result.data);
       } 
     });
-  }, []);
+    if (searchTerm && resultsRef.current) {
+      resultsRef.current.scrollTop = 0;
+    }
+  }, [searchTerm]);
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
+  }
+
+  const clearSearch = () => {
+    setSearchTerm("");
   }
 
   const filteredData = searchTerm ? 
@@ -38,7 +47,7 @@ const Search = () => {
       case "Artist":
         return a.Artist.localeCompare(b.Artist);
       case "Tags":
-        return a.Tags.localeCompare(b.Tags);
+        return b.Tags.localeCompare(a.Tags);
       default:
         return 0;
     }
@@ -60,13 +69,20 @@ const Search = () => {
     <div className="request__song__link">Can't find what you're looking for?&nbsp; <a href="#request" id="request__link">Request a Song!</a></div>
     <div className="search__container">
       <div className="search__and__sort">
-        <input 
+        <div className="search__and__clear">
+           <input 
           type="text"
           placeholder="Search songs"
           value = {searchTerm}
           onChange={handleSearchChange}
           className="search__input"
         />
+          <a href="#search" onClick={clearSearch}>
+            <img src={clearIcon} className="clear__icon"/>
+          </a>
+        </div>
+       
+        
         <div className="sort__section">
           <p id="sort__by">Sort By:</p>
           <div className="sort__dropdown">
@@ -83,7 +99,7 @@ const Search = () => {
         </div>
         
       </div>
-      <div className="table__container">
+      <div className="table__container" ref={resultsRef}>
         <table>
           <thead>
             <tr>

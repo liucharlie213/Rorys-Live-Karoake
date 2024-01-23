@@ -7,6 +7,16 @@ import { useState } from "react"
 
 const Nav = () => {
   const [activeSection, setActiveSection] = useState("#");
+  
+  function openVenmo() {
+    const venmoScheme = "venmo://paycharge?txn=pay&recipients=RoryChambers";
+    window.location.href = venmoScheme;
+    setTimeout(() => {
+      // window.location.href = "https://cash.app/$RoryChambers";
+      window.open("https://cash.app/$RoryChambers", '_blank').focus();
+    }, 500);
+  }
+
   return (
     <nav>
         <div className="nav__bar">
@@ -20,8 +30,8 @@ const Nav = () => {
             <a href="mailto:karaoke@rorychambers.com?subject=Booking%20Inquiry&amp;body=Please%20include%20the%20following%20details%3A%0A%0ADate%3A%0ALocation%3A%0AEvent%20Type%3A%0ATime%20and%20Length%20of%20Performance%3A%0ANumber%20of%20Guests%3A%0APA%20system%20required%20yes%2Fno%3A%0AWhere%20did%20you%20see%2Fhear%20about%20Rory's%20Live%20Karaoke%3A" target="__blank" id="nav__email">
               <img src={emailIcon} className="nav__icon"/>
             </a>
-            <a href="https://cash.app/$RoryChambers" target="_blank">
-              <img src={donateIcon} className="nav__icon"/>
+            <a href="#" onClick={openVenmo}>
+              <img src={donateIcon} className="nav__icon" />
             </a>
           </div>
           

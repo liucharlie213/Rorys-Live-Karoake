@@ -47,6 +47,12 @@
   font-weight: 300;
 }
 
+.search__and__clear {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .search__input {
   font-size: 18px; 
   font-family: var(--text-font);
@@ -65,6 +71,11 @@
 .search-input::placeholder {
   color: #f9f9f9; 
   font-weight: 300;
+}
+
+.clear__icon {
+  width: 15px;
+  height: 15px;
 }
 
 .sort__section {
@@ -221,7 +232,13 @@ td {
   }
 
   .search__input {
-    width: 90vw;
+    width: 82vw;
+  }
+
+  .search__and__clear {
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }
 
   .dropdown__content {

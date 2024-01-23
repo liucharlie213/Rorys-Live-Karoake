@@ -104,7 +104,7 @@ const Request = () => {
             </div>
             {error && <div className="error">{error}</div>}
             <div className="submit__container">
-              <button onClick={handleSubmit} type="submit" className="submit__button">Submit</button>
+              <button onClick={handleSubmit} type="submit" className="submit__button">Got it!</button>
             </div>
           </form>
         </div>
